@@ -2646,8 +2646,6 @@ R2
 Text Label 9000 3250 2    50   ~ 0
 R3
 Text Label 9000 3350 2    50   ~ 0
-R4
-Text Label 9000 3450 2    50   ~ 0
 R5
 Text Label 9000 3850 2    50   ~ 0
 C0
@@ -4017,10 +4015,6 @@ Wire Wire Line
 Wire Wire Line
 	9000 3250 8450 3250
 Wire Wire Line
-	9000 3350 8450 3350
-Wire Wire Line
-	9000 3450 8450 3450
-Wire Wire Line
 	9000 4250 8450 4250
 Wire Wire Line
 	6700 4650 7150 4650
@@ -4046,4 +4040,21 @@ NoConn ~ 7150 2950
 NoConn ~ 7150 3050
 NoConn ~ 7150 2550
 NoConn ~ 7150 2650
+Wire Wire Line
+	9000 3350 8450 3350
+Wire Wire Line
+	9000 3450 8450 3450
+Text Label 9000 3450 2    50   ~ 0
+R4
+$Comp
+L Mechanical:MountingHole LOGO5
+U 1 1 5F1A21B2
+P 10700 10250
+F 0 "LOGO5" H 10950 10300 50  0000 C CNN
+F 1 "OSHW" H 11050 10200 50  0000 C CNN
+F 2 "josh-logos:OSHW_Logo_3.6x3.6_F.Mask" H 10700 10250 50  0001 C CNN
+F 3 "~" H 10700 10250 50  0001 C CNN
+	1    10700 10250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
