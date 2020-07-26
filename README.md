@@ -5,7 +5,8 @@
 - Left and right hand numpad 2U layout options
 - Per key RGB 
 - STM32F072 MCU
-- Improved USB robustness, including 4 layers
+- Improved USB robustness, including 4 layer board.
 
 Status: Untested
 
+![Render](docs/Hub20.png)
