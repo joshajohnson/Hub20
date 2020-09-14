@@ -19,7 +19,7 @@ bom:
 	cd hardware/$(VERSION) && python3 ../../scripts/josh_bom.py *.xml bom/BOM.csv
 
 pnp:
-	cd hardware/$(VERSION) && python3 "$(HOME)/.kicad_plugins/InteractiveHtmlBom/InteractiveHtmlBom/generate_interactive_bom.py" *.kicad_pcb
+	cd hardware/$(VERSION) && python3 "$(HOME)/.kicad_plugins/InteractiveHtmlBom/generate_interactive_bom.py" *.kicad_pcb
 
 panel:
 	python3 scripts/panel.py hardware/$(VERSION)/panel/*.kicad_pcb

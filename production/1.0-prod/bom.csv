@@ -1,0 +1,39 @@
+Qty,Reference(s),Value,Footprint,MPN,DigiKey,LCSC,Manufacturer,DNP,Notes,Substitue Allowed?
+44,"C1, C11, C12, C13, C15, C16, C17, C21, C22, C23, C24, C25, C26, C27, C29, C30, C31, C33, C35, C36, C37, C38, C39, C4, C40, C42, C43, C46, C47, C48, C49, C5, C50, C51, C52, C53, C56, C58, C59, C6, C60, C7, C8, C9",100n,Capacitor_SMD:C_0603_1608Metric,CL10B104KB8NNNC,1276-1000-1-ND,C1591,Samsung Electro-Mechanics,,,Y - X5R or better
+8,"C10, C19, C28, C32, C34, C54, C55, C57",1u,Capacitor_SMD:C_0603_1608Metric,CL10A105MP8NNNC ,1276-1866-1-ND ,C29936,Samsung Electro-Mechanics,,,Y - X5R or better
+3,"C14, C20, C41",10u,Capacitor_SMD:C_0603_1608Metric,CL10A106MP8NNNC,1276-1871-1-ND,C85713,Samsung Electro-Mechanics,,,Y - X5R or better
+1,C18,4u7,Capacitor_SMD:C_0603_1608Metric,CL10A475MP8NNNC,1276-1905-1-ND,C307473,Samsung Electro-Mechanics,,,Y - X5R or better
+2,"C44, C45",15p,Capacitor_SMD:C_0603_1608Metric,CL10C150JB8NNNC,1276-1296-2-ND,C1644,Samsung Electro-Mechanics,,,Y - NP0 / C0G
+1,D1,1N4148,Diode_SMD:D_SOD-123,1N4148W-7-F,1N4148W-FDICT-ND,C83528,Diodes Inc,,,Y - Any 1N4148
+22,"D10, D11, D12, D13, D14, D16, D18, D19, D20, D21, D22, D24, D25, D26, D27, D28, D29, D4, D5, D6, D7, D8",1N4148,Diode_SMD:D_SOD-123,1N4148W-7-F,1N4148W-FDICT-ND,C83528,Diodes Inc,,,Y - Any 1N4148
+7,"D15, D17, D2, D23, D3, D30, D9",WS2812B,LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,WS2812B,1528-1104-ND,C114586,Worldsemi,,Must be black,N
+20,"D31, D33, D34, D35, D36, D37, D38, D39, D40, D41, D42, D43, D44, D45, D46, D47, D48, D49, D50, D51",SK6812MINI-E,josh-keyboard:DUMMY_SK6812MINI-E,SK6812MINI-E,,,Shenzhen LED Colour,,Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html,N
+1,D32,LED,LED_SMD:LED_0603_1608Metric,OSK40603C1E,,C268294,OptoSupply,,,Y - Any Pink / Purple
+1,F1,1A,josh-passives-smt:Fuse_0805_2012Metric,0805L100WR,F2774CT-ND,C80270,Littelfuse,,,Y - 500mA hold / 1A trip
+3,"F2, F3, F4",500mA,josh-passives-smt:Fuse_0805_2012Metric,0805L050WR,F2772CT-ND,C207022,Littelfuse,,,Y - 200mA hold / 500mA trip
+5,"FB1, FB2, FB3, FB4, FB5",600R,josh-passives-smt:Ferrite_Bead_0603,BLM18KG601SN1D, 490-5258-1-ND ,C85833,Murata,,,"Y - 600R, > 1A current"
+4,"H1, H2, H3, H4",M3,MountingHole:MountingHole_3.2mm_M3,,,,,DNP,,
+4,"J1, J2, J3, J4",USB_C_Receptacle_USB2.0,josh-connectors:USB_C_U262-161N-4BVC11,U262-161N-4BVC11,,C319148,XKB Enterprise,,Cannot source from DigiKey,Y - Footprint / pinout compatiable
+1,JP1,LED,Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm,,,,,DNP,,
+1,LOGO1,Josh-Details,josh-logos:josh-details,,,,,DNP,,
+1,LOGO2,Board-Title,josh-logos:board-title,,,,,DNP,,
+1,LOGO3,Josh-Logo,josh-logos:josh-johnson-logo-11x2,,,,,DNP,,
+1,LOGO5,OSHW,josh-logos:OSHW-Logo2_9.8x8mm_Mask,,,,,DNP,,
+2,"MX1, MX2",2U,josh-keyboard:MXOnly-2U-NoLED-3PIN,,,,,DNP,,
+4,"MX3, MX4, MX5, MX6",2U,josh-keyboard:MXOnly-2U-ReversedStabilizers-NoLED-3PIN,,,,,DNP,,
+1,Q1,DTC123J,Package_TO_SOT_SMD:SOT-23,DTC123JKAT146,DTC123JKAT146CT-ND,C111724,ROHM Semicon,,,Y - Any DTC123J
+1,Q2,BSS138,Package_TO_SOT_SMD:SOT-23,BSS138,BSS138CT-ND,C52895,ON Semiconductor,,,Y - Any BSS138
+1,R10,649R,Resistor_SMD:R_0603_1608Metric,MCR03ERTF6490 ,RHM649CFCT-ND  ,C403314,Rohm Semiconductor,,LCSC: Substitute PN,Y -  Same spec
+3,"R14, R2, R3",5K1,Resistor_SMD:R_0603_1608Metric,CR0603-JW-512ELF ,118-CR0603-JW-512ELFCT-ND ,C14677,Bourns,,LCSC: Substitute PN,Y -  Same spec
+1,R4,100K,Resistor_SMD:R_0603_1608Metric,CR0603-JW-104ELF,CR0603-JW-104ELFCT-ND,C100048,Bourns,,LCSC: Substitute PN,Y -  Same spec
+5,"R5, R6, R7, R8, R9",10K,Resistor_SMD:R_0603_1608Metric,CR0603-JW-103ELF ,CR0603-JW-103ELFCT-ND  ,C144116,Bourns,,LCSC: Substitute PN,Y -  Same spec
+2,"RN1, RN2",10K,Resistor_SMD:R_Array_Convex_4x0603,RAVF164DJT10K0,RAVF164DJT10K0CT-ND,C107374,Bourns,,LCSC: Substitute PN,Y -  Same spec
+1,RN3,10K,Resistor_SMD:R_Array_Convex_4x0603,RAVF164DJT10K0,RAVF164DJT10K0CT-ND,C107374,Bourns,,LCSC: Substitute PN,Y -  Same spec
+1,SW1,EVQPUL,josh-buttons-switches:Panasonic_EVQPUL_EVQPUC,EVQ-PUL02K,P10853SCT-ND,C397351,Panasonic,,LCSC: Substitute PN,Y - Same footprint
+20,"SW10, SW11, SW12, SW14, SW15, SW16, SW17, SW18, SW19, SW2, SW20, SW21, SW22, SW23, SW3, SW4, SW5, SW6, SW8, SW9",MX_RGB,josh-keyboard:MX_KEYSWITCH_RGB,,,,,DNP,,
+2,"SW13, SW7",EC11,josh-buttons-switches:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles,PEC11L-4120F-S0020,PEC11L-4120F-S0020-ND,,Bourns,DNP,Similar to: https://www.aliexpress.com/item/32839106848.html,Y - 20 pulse per revolution
+1,U1,AP2112K-3.3,Package_TO_SOT_SMD:SOT-23-5, AP2112K-3.3TRG1,AP2112K-3.3TRG1DICT-ND,C51118,Diodes Incorporated,,,N
+4,"U2, U6, U7, U8",USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,USBLC6-2SC6,497-5235-1-ND ,C7519,STMicroelectronics,,,N
+1,U3,STM32F072C8Tx,Package_QFP:LQFP-48_7x7mm_P0.5mm,STM32F072C8T6,497-17359-1-ND,C80488,STMicroelectronics,,,N
+1,U5,CY7C65632-28LTXCT,josh-dfn-qfn:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm_ThermalVias,CY7C65632-28LTXCT,428-3156-1-ND,C466886,Cypress Semiconductor,,,N
+1,Y1,12MHz,josh-oscillators:Crystal_SMD_3225-4Pin_3.2x2.5mm,ABM8-12.000MHZ-12-B1U-T,535-14962-6-ND,C164041,Abracon LLC,,LCSC: Substitute PN,"Y - 12 MHz, 10/12pF"
