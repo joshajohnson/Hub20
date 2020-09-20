@@ -9,8 +9,8 @@ Qty,Reference(s),Value,Footprint,MPN,DigiKey,LCSC,Manufacturer,DNP,Notes,Substit
 7,"D15, D17, D2, D23, D3, D30, D9",WS2812B,LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,WS2812B,1528-1104-ND,C114586,Worldsemi,,Must be black,N
 20,"D31, D33, D34, D35, D36, D37, D38, D39, D40, D41, D42, D43, D44, D45, D46, D47, D48, D49, D50, D51",SK6812MINI-E,josh-keyboard:DUMMY_SK6812MINI-E,SK6812MINI-E,,,Shenzhen LED Colour,,Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html,N
 1,D32,LED,LED_SMD:LED_0603_1608Metric,OSK40603C1E,,C268294,OptoSupply,,,Y - Any Pink / Purple
-1,F1,1A,josh-passives-smt:Fuse_0805_2012Metric,0805L100WR,F2774CT-ND,C80270,Littelfuse,,,Y - 500mA hold / 1A trip
-3,"F2, F3, F4",500mA,josh-passives-smt:Fuse_0805_2012Metric,0805L050WR,F2772CT-ND,C207022,Littelfuse,,,Y - 200mA hold / 500mA trip
+1,F1,1A,josh-passives-smt:Fuse_0805_2012Metric,0805L100WR,F2774CT-ND,C80270,Littelfuse,,,Y - 1A hold / >1.5A trip
+3,"F2, F3, F4",500mA,josh-passives-smt:Fuse_0805_2012Metric,0805L050WR,F2772CT-ND,C207022,Littelfuse,,,Y - 500mA hold / 1A trip
 5,"FB1, FB2, FB3, FB4, FB5",600R,josh-passives-smt:Ferrite_Bead_0603,BLM18KG601SN1D, 490-5258-1-ND ,C85833,Murata,,,"Y - 600R, > 1A current"
 4,"H1, H2, H3, H4",M3,MountingHole:MountingHole_3.2mm_M3,,,,,DNP,,
 4,"J1, J2, J3, J4",USB_C_Receptacle_USB2.0,josh-connectors:USB_C_U262-161N-4BVC11,U262-161N-4BVC11,,C319148,XKB Enterprise,,Cannot source from DigiKey,Y - Footprint / pinout compatiable

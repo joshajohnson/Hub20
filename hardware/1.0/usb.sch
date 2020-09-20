@@ -983,7 +983,7 @@ F 5 "C207022" H 6700 1200 50  0001 C CNN "LCSC"
 F 6 "0805L050WR" H 6700 1200 50  0001 C CNN "MPN"
 F 7 "Littelfuse" H 6700 1200 50  0001 C CNN "Manufacturer"
 F 8 "" H 6700 1200 50  0001 C CNN "Notes"
-F 9 "Y - 200mA hold / 500mA trip" H 6700 1200 50  0001 C CNN "Substitue Allowed?"
+F 9 "Y - 500mA hold / 1A trip" H 6700 1200 50  0001 C CNN "Substitue Allowed?"
 	1    6700 1200
 	0    1    1    0   
 $EndComp
@@ -1093,7 +1093,7 @@ F 5 "C207022" H 8700 3375 50  0001 C CNN "LCSC"
 F 6 "0805L050WR" H 8700 3375 50  0001 C CNN "MPN"
 F 7 "Littelfuse" H 8700 3375 50  0001 C CNN "Manufacturer"
 F 8 "" H 8700 3375 50  0001 C CNN "Notes"
-F 9 "Y - 200mA hold / 500mA trip" H 8700 3375 50  0001 C CNN "Substitue Allowed?"
+F 9 "Y - 500mA hold / 1A trip" H 8700 3375 50  0001 C CNN "Substitue Allowed?"
 	1    8700 3375
 	0    1    1    0   
 $EndComp
@@ -1222,7 +1222,7 @@ F 5 "C207022" H 6300 4600 50  0001 C CNN "LCSC"
 F 6 "0805L050WR" H 6300 4600 50  0001 C CNN "MPN"
 F 7 "Littelfuse" H 6300 4600 50  0001 C CNN "Manufacturer"
 F 8 "" H 6300 4600 50  0001 C CNN "Notes"
-F 9 "Y - 200mA hold / 500mA trip" H 6300 4600 50  0001 C CNN "Substitue Allowed?"
+F 9 "Y - 500mA hold / 1A trip" H 6300 4600 50  0001 C CNN "Substitue Allowed?"
 	1    6300 4600
 	0    1    1    0   
 $EndComp

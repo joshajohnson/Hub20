@@ -332,7 +332,7 @@ F 5 "C80270" H 2850 1500 50  0001 C CNN "LCSC"
 F 6 "0805L100WR" H 2850 1500 50  0001 C CNN "MPN"
 F 7 "Littelfuse" H 2850 1500 50  0001 C CNN "Manufacturer"
 F 8 "" H 2850 1500 50  0001 C CNN "Notes"
-F 9 "Y - 500mA hold / 1A trip" H 2850 1500 50  0001 C CNN "Substitue Allowed?"
+F 9 "Y - 1A hold / >1.5A trip" H 2850 1500 50  0001 C CNN "Substitue Allowed?"
 	1    2850 1500
 	0    1    1    0   
 $EndComp
