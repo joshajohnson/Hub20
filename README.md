@@ -18,7 +18,7 @@ Hardware is stable and firmware is close to finished. All going well these will 
 
 - Keyboard Assembly
 - [VIA Keymap Configuration](documents/via.md)
-- [Macro Keymap Configuration](documents/macro.md)
+- [Macro Configuration](documents/macro.md)
 
 ## Detailed Info
 
