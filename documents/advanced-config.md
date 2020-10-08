@@ -49,6 +49,6 @@ Due to the different software required for each OS, and the varying levels of op
 - Dedicated keys for video conference muting, sharing screens etc.
 - Automating filling out of repetitive forms (e.g. the Auspost customs declaration...)
 - Having emoticons or emoji a single keystroke away. (•◡•) /
-- Alternate input to racing / flight simulators.
+- Alternate input for racing / flight simulators.
 
 If you come up with a novel use case, I'd be very interested to hear about it so please get in touch!

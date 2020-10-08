@@ -12,7 +12,7 @@ If this project looks familiar, it's because it contains all the best parts of [
 
 ## Project Status
 
-Hardware is stable and firmware is close to finished. All going well these will be available for purchase on Tindie before end of year, otherwise if hand assembled is more your thing feel free to build your own.
+Hardware is stable and firmware is close to finished. All going well will be available for purchase on Tindie before end of year, otherwise everything you need to build your own is available in this repo.
 
 ## Getting Started Guide
 
@@ -49,4 +49,4 @@ Due to cost and space constraints, the hub has some limitations. The hub **is no
 
 Might you be able to charge your phone whilst copying files at full speed of a spinning hard drive over a long cable? Maybe. However Hub20 is a numpad first, USB hub second, so if you are looking for a high performance device I'd suggest picking up a dedicated USB hub and just using Hub20 as a numpad.
 
-If you have any questions or comments please get in touch. I can be found on Discord as `_joshajohnson#9451`, [Twitter](https://twitter.com/_joshajohnson), email, or leave an issue on this repo.
+If you have any questions or comments please get in touch. I can be found on Discord as `_joshajohnson#9451`, [Twitter](https://twitter.com/_joshajohnson), email, or leave an issue or pull request on this repo.
