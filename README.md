@@ -24,7 +24,6 @@ Hardware is stable and firmware is close to finished. All going well these will 
 
 - [Advanced Firmware / Software Configuration](documents/advanced-config.md)
 - [PCB SMT Assembly Guide](documents/pcba.md)
-- [PCBA Test Instructions](documents/test.md)
 - [Enclosure Manufacturing](documents/enclosure.md)
 
 ### Repo Contents
