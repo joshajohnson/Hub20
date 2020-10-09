@@ -28,12 +28,13 @@ Hardware is stable and firmware is close to finished. All going well will be ava
 
 ### Repo Contents
 
-- `documents` contains all documentation and images for the project. 
+- `documents` contains all documentation and images for the project.
 - `firmware` contains both the source and precompiled binaries for Hub20.
 - `hardware` contains the KiCad design files for the keyboard.
 - `josh-kicad-lib` is my personal KiCad parts library which contains many of the parts used.
+- `scripts` contains a number of scripts used in the PCB design process.
 - `mechanicals` contain the plate and case design for Hub20.
-- `produciton` contains all the files required to produce the PCB. It also contains test scripts and jigs.
+- `production` contains all the files required to produce the PCB. It also contains test scripts and jigs.
 - `software` contains all the VIA config, along with template script to use Hub20 as a macropad with software on your computer.
 
 ### Notes on the USB Hub

@@ -3,7 +3,7 @@
 `Note: If you are reading this, the Hub20 config is not yet merged into VIA. Follow the below instructions to add the keyboard before continuing.`
 
 - Open the settings tab in VIA, and enable "Show Design Tab".
-- On the design tab, click "load" and select the [hub20.json](../software/hub20.json) file.
+- On the design tab, click "load" and select the [hub20.json](../software/via-hub20.json) file.
 - Hub20 should now be detected by VIA.
 
 VIA is a great way to graphically configure your keyboard without going through the hassle of configuring build environments and poking around in the code.
