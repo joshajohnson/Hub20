@@ -1,0 +1,4158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/mnt/530683E96DD773A1/Dropbox/Projects/Hub20/hardware/1.0/Hub20.sch</source>
+    <date>Mon 14 Sep 2020 19:47:17</date>
+    <tool>Eeschema 5.1.6-c6e7f7d~87~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Hub20</title>
+        <company>Josh Johnson</company>
+        <rev>1.0</rev>
+        <date>2020-09-14</date>
+        <source>Hub20.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/USB Hub/" tstamps="/60F5CF04/">
+      <title_block>
+        <title>USB Hub</title>
+        <company>Josh Johnson</company>
+        <rev>0.1</rev>
+        <date>2019-11-30</date>
+        <source>usb.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="LOGO1">
+      <value>Josh-Details</value>
+      <footprint>josh-logos:josh-details</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E204886</tstamp>
+    </comp>
+    <comp ref="LOGO3">
+      <value>Josh-Logo</value>
+      <footprint>josh-logos:josh-johnson-logo-11x2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2057DD</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF4D892</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF4F9B8</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF4FC8A</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF4FEC8</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>josh-connectors:USB_C_U262-161N-4BVC11</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="LCSC">C319148</field>
+        <field name="MPN">U262-161N-4BVC11</field>
+        <field name="Manufacturer">XKB Enterprise&#xD;</field>
+        <field name="Notes">Cannot source from DigiKey&#xD;</field>
+        <field name="Substitue Allowed?">Y - Footprint / pinout compatiable</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF5E152</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AP2112K-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2112.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">AP2112K-3.3TRG1DICT-ND</field>
+        <field name="LCSC">C51118</field>
+        <field name="MPN"> AP2112K-3.3TRG1</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AP2112K-3.3" description="600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF76264</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1866-1-ND &#xD;</field>
+        <field name="LCSC">C29936&#xD;</field>
+        <field name="MPN">CL10A105MP8NNNC &#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF7946F</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1866-1-ND &#xD;</field>
+        <field name="LCSC">C29936&#xD;</field>
+        <field name="MPN">CL10A105MP8NNNC &#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF7F01E</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1871-1-ND</field>
+        <field name="LCSC">C85713</field>
+        <field name="MPN">CL10A106MP8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF92515</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>1A</value>
+      <footprint>josh-passives-smt:Fuse_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">F2774CT-ND</field>
+        <field name="LCSC">C80270</field>
+        <field name="MPN">0805L100WR</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="Substitue Allowed?">Y - 500mA hold / 1A trip</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF95D3E</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>DTC123J</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="DigiKey">DTC123JKAT146CT-ND</field>
+        <field name="LCSC">C111724</field>
+        <field name="MPN">DTC123JKAT146</field>
+        <field name="Manufacturer">ROHM Semicon</field>
+        <field name="Substitue Allowed?">Y - Any DTC123J</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="DTC123J" description="Digital NPN Transistor, 2k2/47k, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F119F8D</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1905-1-ND</field>
+        <field name="LCSC">C307473</field>
+        <field name="MPN">CL10A475MP8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F121457</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F121E47</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>EVQPUL</value>
+      <footprint>josh-buttons-switches:Panasonic_EVQPUL_EVQPUC</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">P10853SCT-ND</field>
+        <field name="LCSC">C397351</field>
+        <field name="MPN">EVQ-PUL02K</field>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Notes">LCSC: Substitute PN&#xD;</field>
+        <field name="Substitue Allowed?">Y - Same footprint</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F124780</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1871-1-ND</field>
+        <field name="LCSC">C85713</field>
+        <field name="MPN">CL10A106MP8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F12BA15</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">CR0603-JW-104ELFCT-ND</field>
+        <field name="LCSC">C100048</field>
+        <field name="MPN">CR0603-JW-104ELF</field>
+        <field name="Manufacturer">Bourns&#xD;</field>
+        <field name="Notes">LCSC: Substitute PN&#xD;</field>
+        <field name="Substitue Allowed?">Y -  Same spec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F198041</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">BSS138CT-ND</field>
+        <field name="LCSC">C52895</field>
+        <field name="MPN">BSS138</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Substitue Allowed?">Y - Any BSS138</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F277809</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">CR0603-JW-103ELFCT-ND  &#xD;</field>
+        <field name="LCSC">C144116&#xD;</field>
+        <field name="MPN">CR0603-JW-103ELF &#xD;</field>
+        <field name="Manufacturer">Bourns&#xD;</field>
+        <field name="Notes">LCSC: Substitute PN&#xD;</field>
+        <field name="Substitue Allowed?">Y -  Same spec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F27C302</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3FE4EE</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F44FD41</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">CR0603-JW-103ELFCT-ND  &#xD;</field>
+        <field name="LCSC">C144116&#xD;</field>
+        <field name="MPN">CR0603-JW-103ELF &#xD;</field>
+        <field name="Manufacturer">Bourns&#xD;</field>
+        <field name="Notes">LCSC: Substitute PN&#xD;</field>
+        <field name="Substitue Allowed?">Y -  Same spec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F27B6E3</tstamp>
+    </comp>
+    <comp ref="RN1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0603</footprint>
+      <fields>
+        <field name="DigiKey">RAVF164DJT10K0CT-ND</field>
+        <field name="LCSC">C107374</field>
+        <field name="MPN">RAVF164DJT10K0</field>
+        <field name="Manufacturer">Bourns&#xD;</field>
+        <field name="Notes">LCSC: Substitute PN&#xD;</field>
+        <field name="Substitue Allowed?">Y -  Same spec</field>
+      </fields>
+      <libsource lib="josh-passive" part="RN" description="Resistor Network"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6036DBDB</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">118-CR0603-JW-512ELFCT-ND &#xD;</field>
+        <field name="LCSC">C14677&#xD;</field>
+        <field name="MPN">CR0603-JW-512ELF &#xD;</field>
+        <field name="Manufacturer">Bourns&#xD;</field>
+        <field name="Notes">LCSC: Substitute PN&#xD;</field>
+        <field name="Substitue Allowed?">Y -  Same spec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F016ED5</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">118-CR0603-JW-512ELFCT-ND &#xD;</field>
+        <field name="LCSC">C14677&#xD;</field>
+        <field name="MPN">CR0603-JW-512ELF &#xD;</field>
+        <field name="Manufacturer">Bourns&#xD;</field>
+        <field name="Notes">LCSC: Substitute PN&#xD;</field>
+        <field name="Substitue Allowed?">Y -  Same spec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0187ED</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1528-1104-ND&#xD;</field>
+        <field name="LCSC">C114586</field>
+        <field name="MPN">WS2812B</field>
+        <field name="Manufacturer">Worldsemi&#xD;</field>
+        <field name="Notes">Black prefered, but white also suitable</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0DB1B9</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1528-1104-ND&#xD;</field>
+        <field name="LCSC">C114586</field>
+        <field name="MPN">WS2812B</field>
+        <field name="Manufacturer">Worldsemi&#xD;</field>
+        <field name="Notes">Black prefered, but white also suitable</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F11D014</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1528-1104-ND&#xD;</field>
+        <field name="LCSC">C114586</field>
+        <field name="MPN">WS2812B</field>
+        <field name="Manufacturer">Worldsemi&#xD;</field>
+        <field name="Notes">Black prefered, but white also suitable</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F13B526</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1528-1104-ND&#xD;</field>
+        <field name="LCSC">C114586</field>
+        <field name="MPN">WS2812B</field>
+        <field name="Manufacturer">Worldsemi&#xD;</field>
+        <field name="Notes">Black prefered, but white also suitable</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F13B53A</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1528-1104-ND&#xD;</field>
+        <field name="LCSC">C114586</field>
+        <field name="MPN">WS2812B</field>
+        <field name="Manufacturer">Worldsemi&#xD;</field>
+        <field name="Notes">Black prefered, but white also suitable</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F247043</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1528-1104-ND&#xD;</field>
+        <field name="LCSC">C114586</field>
+        <field name="MPN">WS2812B</field>
+        <field name="Manufacturer">Worldsemi&#xD;</field>
+        <field name="Notes">Black prefered, but white also suitable</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F247057</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1528-1104-ND&#xD;</field>
+        <field name="LCSC">C114586</field>
+        <field name="MPN">WS2812B</field>
+        <field name="Manufacturer">Worldsemi&#xD;</field>
+        <field name="Notes">Black prefered, but white also suitable</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F24706B</tstamp>
+    </comp>
+    <comp ref="RN2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0603</footprint>
+      <fields>
+        <field name="DigiKey">RAVF164DJT10K0CT-ND</field>
+        <field name="LCSC">C107374</field>
+        <field name="MPN">RAVF164DJT10K0</field>
+        <field name="Manufacturer">Bourns&#xD;</field>
+        <field name="Notes">LCSC: Substitute PN&#xD;</field>
+        <field name="Substitue Allowed?">Y -  Same spec</field>
+      </fields>
+      <libsource lib="josh-passive" part="RN" description="Resistor Network"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6041B70C</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5B201A</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5B2002</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F48AD2F</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www2.st.com/resource/en/datasheet/CD00050750.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">497-5235-1-ND &#xD;</field>
+        <field name="LCSC">C7519&#xD;</field>
+        <field name="MPN">USBLC6-2SC6&#xD;</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="josh-ic" part="USBLC6-2SC6" description="Bidirectional ESD Protection Diode, SOT-23-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F48ECC9</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>600R</value>
+      <footprint>josh-passives-smt:Ferrite_Bead_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey"> 490-5258-1-ND </field>
+        <field name="LCSC">C85833</field>
+        <field name="MPN">BLM18KG601SN1D</field>
+        <field name="Manufacturer">Murata&#xD;</field>
+        <field name="Substitue Allowed?">Y - 600R, &gt; 1A current</field>
+      </fields>
+      <libsource lib="josh-passive" part="Ferrite_Bead_PWR" description="Ferrite bead"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F49A5C5</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4C0A49</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F504F22</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F504F28</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F50DB81</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F50DB87</tstamp>
+    </comp>
+    <comp ref="SW19">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F51716B</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F517171</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F55D6C9</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F55D6CF</tstamp>
+    </comp>
+    <comp ref="SW20">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F566ECA</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F573D7D</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F573D83</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F573D8B</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F573D91</tstamp>
+    </comp>
+    <comp ref="SW16">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F582C91</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F582C97</tstamp>
+    </comp>
+    <comp ref="SW21">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F582C9F</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F582CA5</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F582CAD</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F582CB3</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F582CBB</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F582CC1</tstamp>
+    </comp>
+    <comp ref="SW17">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F590EA9</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F590EAF</tstamp>
+    </comp>
+    <comp ref="SW22">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F590EB7</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F590EBD</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F590EC5</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F590ECB</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F590ED3</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F590ED9</tstamp>
+    </comp>
+    <comp ref="SW18">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5A8C49</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5A8C4F</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5A8C5D</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5A8C65</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5A8C6B</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5A8C73</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5A8C79</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBAC0FE</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC20A36</tstamp>
+    </comp>
+    <comp ref="MX4">
+      <value>2U</value>
+      <footprint>josh-keyboard:MXOnly-2U-ReversedStabilizers-NoLED-3PIN</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601013F2</tstamp>
+    </comp>
+    <comp ref="MX3">
+      <value>2U</value>
+      <footprint>josh-keyboard:MXOnly-2U-ReversedStabilizers-NoLED-3PIN</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60189B96</tstamp>
+    </comp>
+    <comp ref="SW23">
+      <value>MX_RGB</value>
+      <footprint>josh-keyboard:MX_KEYSWITCH_RGB</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX_RGB" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5A8C57</tstamp>
+    </comp>
+    <comp ref="MX6">
+      <value>2U</value>
+      <footprint>josh-keyboard:MXOnly-2U-ReversedStabilizers-NoLED-3PIN</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602C2E5C</tstamp>
+    </comp>
+    <comp ref="MX5">
+      <value>2U</value>
+      <footprint>josh-keyboard:MXOnly-2U-ReversedStabilizers-NoLED-3PIN</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6034C877</tstamp>
+    </comp>
+    <comp ref="MX2">
+      <value>2U</value>
+      <footprint>josh-keyboard:MXOnly-2U-NoLED-3PIN</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6040C709</tstamp>
+    </comp>
+    <comp ref="MX1">
+      <value>2U</value>
+      <footprint>josh-keyboard:MXOnly-2U-NoLED-3PIN</footprint>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="josh-keyboard" part="MX-NoLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604CB222</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C268294</field>
+        <field name="MPN">OSK40603C1E</field>
+        <field name="Manufacturer">OptoSupply</field>
+        <field name="Substitue Allowed?">Y - Any Pink / Purple</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6098DECA</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">118-CR0603-JW-512ELFCT-ND &#xD;</field>
+        <field name="LCSC">C14677&#xD;</field>
+        <field name="MPN">CR0603-JW-512ELF &#xD;</field>
+        <field name="Manufacturer">Bourns&#xD;</field>
+        <field name="Notes">LCSC: Substitute PN&#xD;</field>
+        <field name="Substitue Allowed?">Y -  Same spec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609E0484</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1N4148W-FDICT-ND&#xD;</field>
+        <field name="LCSC">C83528</field>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Manufacturer">Diodes Inc&#xD;</field>
+        <field name="Substitue Allowed?">Y - Any 1N4148</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F566ED0</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A44B6B</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A44B43</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A44B2F</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A04C29</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A04C15</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A04C01</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A04BED</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A04BD9</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609CBC25</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609CBBFD</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609CBBD5</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609CBBC1</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609CBB99</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609CBB85</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609CBB71</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609CBB5D</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60999F5D</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60999F49</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60999F35</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60999F21</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60999F0D</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6096CCA7</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6096CC93</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60943D87</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60943D73</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6091AAA9</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608CAD9C</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>LED</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610776E9</tstamp>
+    </comp>
+    <comp ref="LOGO5">
+      <value>OSHW</value>
+      <footprint>josh-logos:OSHW-Logo2_9.8x8mm_Mask</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1A21B2</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>EC11</value>
+      <footprint>josh-buttons-switches:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+        <field name="DigiKey">PEC11L-4120F-S0020-ND</field>
+        <field name="MPN">PEC11L-4120F-S0020</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Notes">Similar to: https://www.aliexpress.com/item/32839106848.html</field>
+        <field name="Substitue Allowed?">Y - 20 pulse per revolution</field>
+      </fields>
+      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9E3A50</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>EC11</value>
+      <footprint>josh-buttons-switches:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+        <field name="DigiKey">PEC11L-4120F-S0020-ND</field>
+        <field name="MPN">PEC11L-4120F-S0020</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Notes">Similar to: https://www.aliexpress.com/item/32839106848.html</field>
+        <field name="Substitue Allowed?">Y - 20 pulse per revolution</field>
+      </fields>
+      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD80763</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F518133</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F449E00</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1866-1-ND &#xD;</field>
+        <field name="LCSC">C29936&#xD;</field>
+        <field name="MPN">CL10A105MP8NNNC &#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0AEE5D</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1866-1-ND &#xD;</field>
+        <field name="LCSC">C29936&#xD;</field>
+        <field name="MPN">CL10A105MP8NNNC &#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0AEBD7</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1866-1-ND &#xD;</field>
+        <field name="LCSC">C29936&#xD;</field>
+        <field name="MPN">CL10A105MP8NNNC &#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0AE22E</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0ADB68</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>STM32F072C8Tx</value>
+      <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">497-17359-1-ND</field>
+        <field name="LCSC">C80488</field>
+        <field name="MPN">STM32F072C8T6</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="MCU_ST_STM32F0" part="STM32F072C8Tx" description="ARM Cortex-M0 MCU, 64KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, LQFP-48"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFC05F6</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6078B040</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605467E0</tstamp>
+    </comp>
+    <comp ref="LOGO2">
+      <value>Board-Title</value>
+      <footprint>josh-logos:board-title</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E205A57</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F464D9D</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F471D36</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F473248</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F47324E</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4BA99F</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4BA9A5</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5027BA</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5027C0</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F549E89</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F549E8F</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F624800</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F624806</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F66BFCB</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F66BFD1</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6B3956</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6B395C</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6FB1B7</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6FB1BD</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F74295A</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>SK6812MINI-E</value>
+      <footprint>josh-keyboard:DUMMY_SK6812MINI-E</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">SK6812MINI-E</field>
+        <field name="Manufacturer">Shenzhen LED Colour</field>
+        <field name="Notes">Similar to: https://www.alibaba.com/product-detail/Best-selling-SK6812-MINI-E-1500pcs_62354369359.html</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F742960</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>600R</value>
+      <footprint>josh-passives-smt:Ferrite_Bead_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey"> 490-5258-1-ND </field>
+        <field name="LCSC">C85833</field>
+        <field name="MPN">BLM18KG601SN1D</field>
+        <field name="Manufacturer">Murata&#xD;</field>
+        <field name="Substitue Allowed?">Y - 600R, &gt; 1A current</field>
+      </fields>
+      <libsource lib="josh-passive" part="Ferrite_Bead_PWR" description="Ferrite bead"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5E7397D3</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1871-1-ND</field>
+        <field name="LCSC">C85713</field>
+        <field name="MPN">CL10A106MP8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5E740DE6</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5E742B2F</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5E758A2B</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5E7649D1</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5E7661CD</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1866-1-ND &#xD;</field>
+        <field name="LCSC">C29936&#xD;</field>
+        <field name="MPN">CL10A105MP8NNNC &#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5E767B7B</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1866-1-ND &#xD;</field>
+        <field name="LCSC">C29936&#xD;</field>
+        <field name="MPN">CL10A105MP8NNNC &#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5E771F10</tstamp>
+    </comp>
+    <comp ref="C56">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5E7994BC</tstamp>
+    </comp>
+    <comp ref="C57">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1866-1-ND &#xD;</field>
+        <field name="LCSC">C29936&#xD;</field>
+        <field name="MPN">CL10A105MP8NNNC &#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5E7994D2</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>15p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1296-2-ND</field>
+        <field name="LCSC">C1644</field>
+        <field name="MPN">CL10C150JB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - NP0 / C0G</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5E805CD8</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>15p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1296-2-ND</field>
+        <field name="LCSC">C1644</field>
+        <field name="MPN">CL10C150JB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - NP0 / C0G</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5E805CDE</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>649R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">RHM649CFCT-ND  &#xD;</field>
+        <field name="LCSC">C403314</field>
+        <field name="MPN">MCR03ERTF6490 &#xD;</field>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Notes">LCSC: Substitute PN&#xD;</field>
+        <field name="Substitue Allowed?">Y -  Same spec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5E8EECCD</tstamp>
+    </comp>
+    <comp ref="RN3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">RAVF164DJT10K0CT-ND</field>
+        <field name="LCSC">C107374</field>
+        <field name="MPN">RAVF164DJT10K0</field>
+        <field name="Manufacturer">Bourns&#xD;</field>
+        <field name="Notes">LCSC: Substitute PN&#xD;</field>
+        <field name="Substitue Allowed?">Y -  Same spec</field>
+      </fields>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5E97BC1C</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>josh-connectors:USB_C_U262-161N-4BVC11</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="LCSC">C319148</field>
+        <field name="MPN">U262-161N-4BVC11</field>
+        <field name="Manufacturer">XKB Enterprise&#xD;</field>
+        <field name="Notes">Cannot source from DigiKey&#xD;</field>
+        <field name="Substitue Allowed?">Y - Footprint / pinout compatiable</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5E96570C</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>josh-connectors:USB_C_U262-161N-4BVC11</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="LCSC">C319148</field>
+        <field name="MPN">U262-161N-4BVC11</field>
+        <field name="Manufacturer">XKB Enterprise&#xD;</field>
+        <field name="Notes">Cannot source from DigiKey&#xD;</field>
+        <field name="Substitue Allowed?">Y - Footprint / pinout compatiable</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5EA6196A</tstamp>
+    </comp>
+    <comp ref="FB3">
+      <value>600R</value>
+      <footprint>josh-passives-smt:Ferrite_Bead_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey"> 490-5258-1-ND </field>
+        <field name="LCSC">C85833</field>
+        <field name="MPN">BLM18KG601SN1D</field>
+        <field name="Manufacturer">Murata&#xD;</field>
+        <field name="Substitue Allowed?">Y - 600R, &gt; 1A current</field>
+      </fields>
+      <libsource lib="josh-passive" part="Ferrite_Bead_PWR" description="Ferrite bead"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5EAA61A4</tstamp>
+    </comp>
+    <comp ref="FB5">
+      <value>600R</value>
+      <footprint>josh-passives-smt:Ferrite_Bead_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey"> 490-5258-1-ND </field>
+        <field name="LCSC">C85833</field>
+        <field name="MPN">BLM18KG601SN1D</field>
+        <field name="Manufacturer">Murata&#xD;</field>
+        <field name="Substitue Allowed?">Y - 600R, &gt; 1A current</field>
+      </fields>
+      <libsource lib="josh-passive" part="Ferrite_Bead_PWR" description="Ferrite bead"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5EACFE3B</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>12MHz</value>
+      <footprint>josh-oscillators:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">535-14962-6-ND</field>
+        <field name="LCSC">C164041</field>
+        <field name="MPN">ABM8-12.000MHZ-12-B1U-T</field>
+        <field name="Manufacturer">Abracon LLC</field>
+        <field name="Notes">LCSC: Substitute PN&#xD;</field>
+        <field name="Substitue Allowed?">Y - 12 MHz, 10/12pF</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5E805CF9</tstamp>
+    </comp>
+    <comp ref="FB4">
+      <value>600R</value>
+      <footprint>josh-passives-smt:Ferrite_Bead_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey"> 490-5258-1-ND </field>
+        <field name="LCSC">C85833</field>
+        <field name="MPN">BLM18KG601SN1D</field>
+        <field name="Manufacturer">Murata&#xD;</field>
+        <field name="Substitue Allowed?">Y - 600R, &gt; 1A current</field>
+      </fields>
+      <libsource lib="josh-passive" part="Ferrite_Bead_PWR" description="Ferrite bead"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5EAD8DBC</tstamp>
+    </comp>
+    <comp ref="C59">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5F1D447E</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>500mA</value>
+      <footprint>josh-passives-smt:Fuse_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">F2772CT-ND</field>
+        <field name="LCSC">C207022</field>
+        <field name="MPN">0805L050WR</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="Substitue Allowed?">Y - 200mA hold / 500mA trip</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5F1ED6BC</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www2.st.com/resource/en/datasheet/CD00050750.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">497-5235-1-ND &#xD;</field>
+        <field name="LCSC">C7519&#xD;</field>
+        <field name="MPN">USBLC6-2SC6&#xD;</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="josh-ic" part="USBLC6-2SC6" description="Bidirectional ESD Protection Diode, SOT-23-6"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5F207F9B</tstamp>
+    </comp>
+    <comp ref="C60">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5F207FB7</tstamp>
+    </comp>
+    <comp ref="F4">
+      <value>500mA</value>
+      <footprint>josh-passives-smt:Fuse_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">F2772CT-ND</field>
+        <field name="LCSC">C207022</field>
+        <field name="MPN">0805L050WR</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="Substitue Allowed?">Y - 200mA hold / 500mA trip</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5F207FC6</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www2.st.com/resource/en/datasheet/CD00050750.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">497-5235-1-ND &#xD;</field>
+        <field name="LCSC">C7519&#xD;</field>
+        <field name="MPN">USBLC6-2SC6&#xD;</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="josh-ic" part="USBLC6-2SC6" description="Bidirectional ESD Protection Diode, SOT-23-6"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5F3457DB</tstamp>
+    </comp>
+    <comp ref="C58">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">1276-1000-1-ND&#xD;</field>
+        <field name="LCSC">C1591&#xD;</field>
+        <field name="MPN">CL10B104KB8NNNC&#xD;</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics&#xD;</field>
+        <field name="Substitue Allowed?">Y - X5R or better</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5F3457EC</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>500mA</value>
+      <footprint>josh-passives-smt:Fuse_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">F2772CT-ND</field>
+        <field name="LCSC">C207022</field>
+        <field name="MPN">0805L050WR</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="Substitue Allowed?">Y - 200mA hold / 500mA trip</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5F3457FA</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>josh-connectors:USB_C_U262-161N-4BVC11</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="LCSC">C319148</field>
+        <field name="MPN">U262-161N-4BVC11</field>
+        <field name="Manufacturer">XKB Enterprise&#xD;</field>
+        <field name="Notes">Cannot source from DigiKey&#xD;</field>
+        <field name="Substitue Allowed?">Y - Footprint / pinout compatiable</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5EA9199F</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www2.st.com/resource/en/datasheet/CD00050750.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">497-5235-1-ND &#xD;</field>
+        <field name="LCSC">C7519&#xD;</field>
+        <field name="MPN">USBLC6-2SC6&#xD;</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="josh-ic" part="USBLC6-2SC6" description="Bidirectional ESD Protection Diode, SOT-23-6"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5F17C827</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">CR0603-JW-103ELFCT-ND  &#xD;</field>
+        <field name="LCSC">C144116&#xD;</field>
+        <field name="MPN">CR0603-JW-103ELF &#xD;</field>
+        <field name="Manufacturer">Bourns&#xD;</field>
+        <field name="Notes">LCSC: Substitute PN&#xD;</field>
+        <field name="Substitue Allowed?">Y -  Same spec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5F35A109</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">CR0603-JW-103ELFCT-ND  &#xD;</field>
+        <field name="LCSC">C144116&#xD;</field>
+        <field name="MPN">CR0603-JW-103ELF &#xD;</field>
+        <field name="Manufacturer">Bourns&#xD;</field>
+        <field name="Notes">LCSC: Substitute PN&#xD;</field>
+        <field name="Substitue Allowed?">Y -  Same spec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5F35B149</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey">CR0603-JW-103ELFCT-ND  &#xD;</field>
+        <field name="LCSC">C144116&#xD;</field>
+        <field name="MPN">CR0603-JW-103ELF &#xD;</field>
+        <field name="Manufacturer">Bourns&#xD;</field>
+        <field name="Notes">LCSC: Substitute PN&#xD;</field>
+        <field name="Substitue Allowed?">Y -  Same spec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5E6ABC35</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>CY7C65632-28LTXCT</value>
+      <footprint>josh-dfn-qfn:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm_ThermalVias</footprint>
+      <datasheet>https://www.cypress.com/file/114101/download</datasheet>
+      <fields>
+        <field name="DigiKey">428-3156-1-ND&#xD;</field>
+        <field name="LCSC">C466886</field>
+        <field name="MPN">CY7C65632-28LTXCT</field>
+        <field name="Manufacturer">Cypress Semiconductor</field>
+        <field name="Substitue Allowed?">N</field>
+      </fields>
+      <libsource lib="josh-ic" part="CY7C65632-28LTXCT" description="Cypress 4 Port USB 2.0 Hub"/>
+      <sheetpath names="/USB Hub/" tstamps="/60F5CF04/"/>
+      <tstamp>5E6B05F8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="power_in"/>
+        <pin num="A4" name="VBUS" type="power_in"/>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24_Small">
+      <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Small">
+      <description>Diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper_NC_Small">
+      <description>Jumper, normally closed, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Pack04">
+      <description>4 resistor network, parallel topology</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>DIP*</fp>
+        <fp>SOIC*</fp>
+        <fp>R*Array*Concave*</fp>
+        <fp>R*Array*Convex*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Pack04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R1.1" type="passive"/>
+        <pin num="2" name="R2.1" type="passive"/>
+        <pin num="3" name="R3.1" type="passive"/>
+        <pin num="4" name="R4.1" type="passive"/>
+        <pin num="5" name="R4.2" type="passive"/>
+        <pin num="6" name="R3.2" type="passive"/>
+        <pin num="7" name="R2.2" type="passive"/>
+        <pin num="8" name="R1.2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Rotary_Encoder_Switch">
+      <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RotaryEncoder*Switch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Rotary_Encoder_Switch</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="S1" name="S1" type="passive"/>
+        <pin num="S2" name="S2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <aliases>
+        <alias>1N4448</alias>
+        <alias>1N4149</alias>
+        <alias>1N4151</alias>
+        <alias>1N914</alias>
+        <alias>BA243</alias>
+        <alias>BA244</alias>
+        <alias>BA282</alias>
+        <alias>BA283</alias>
+        <alias>BAV17</alias>
+        <alias>BAV18</alias>
+        <alias>BAV19</alias>
+        <alias>BAV20</alias>
+        <alias>BAV21</alias>
+        <alias>BAW75</alias>
+        <alias>BAW76</alias>
+        <alias>BAY93</alias>
+      </aliases>
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2812B">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812B</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32F0" part="STM32F072C8Tx">
+      <aliases>
+        <alias>STM32F072CBTx</alias>
+      </aliases>
+      <description>ARM Cortex-M0 MCU, 64KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, LQFP-48</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf</docs>
+      <footprints>
+        <fp>LQFP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F072C8Tx</field>
+        <field name="Footprint">Package_QFP:LQFP-48_7x7mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="BiDi"/>
+        <pin num="3" name="PC14" type="BiDi"/>
+        <pin num="4" name="PC15" type="BiDi"/>
+        <pin num="5" name="PF0" type="input"/>
+        <pin num="6" name="PF1" type="input"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="VSSA" type="power_in"/>
+        <pin num="9" name="VDDA" type="power_in"/>
+        <pin num="10" name="PA0" type="BiDi"/>
+        <pin num="11" name="PA1" type="BiDi"/>
+        <pin num="12" name="PA2" type="BiDi"/>
+        <pin num="13" name="PA3" type="BiDi"/>
+        <pin num="14" name="PA4" type="BiDi"/>
+        <pin num="15" name="PA5" type="BiDi"/>
+        <pin num="16" name="PA6" type="BiDi"/>
+        <pin num="17" name="PA7" type="BiDi"/>
+        <pin num="18" name="PB0" type="BiDi"/>
+        <pin num="19" name="PB1" type="BiDi"/>
+        <pin num="20" name="PB2" type="BiDi"/>
+        <pin num="21" name="PB10" type="BiDi"/>
+        <pin num="22" name="PB11" type="BiDi"/>
+        <pin num="23" name="VSS" type="power_in"/>
+        <pin num="24" name="VDD" type="power_in"/>
+        <pin num="25" name="PB12" type="BiDi"/>
+        <pin num="26" name="PB13" type="BiDi"/>
+        <pin num="27" name="PB14" type="BiDi"/>
+        <pin num="28" name="PB15" type="BiDi"/>
+        <pin num="29" name="PA8" type="BiDi"/>
+        <pin num="30" name="PA9" type="BiDi"/>
+        <pin num="31" name="PA10" type="BiDi"/>
+        <pin num="32" name="PA11" type="BiDi"/>
+        <pin num="33" name="PA12" type="BiDi"/>
+        <pin num="34" name="PA13" type="BiDi"/>
+        <pin num="35" name="VSS" type="power_in"/>
+        <pin num="36" name="VDDIO2" type="power_in"/>
+        <pin num="37" name="PA14" type="BiDi"/>
+        <pin num="38" name="PA15" type="BiDi"/>
+        <pin num="39" name="PB3" type="BiDi"/>
+        <pin num="40" name="PB4" type="BiDi"/>
+        <pin num="41" name="PB5" type="BiDi"/>
+        <pin num="42" name="PB6" type="BiDi"/>
+        <pin num="43" name="PB7" type="BiDi"/>
+        <pin num="44" name="BOOT0" type="input"/>
+        <pin num="45" name="PB8" type="BiDi"/>
+        <pin num="46" name="PB9" type="BiDi"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP2204K-1.5">
+      <aliases>
+        <alias>AP2204K-1.8</alias>
+        <alias>AP2204K-2.5</alias>
+        <alias>AP2204K-2.8</alias>
+        <alias>AP2204K-3.0</alias>
+        <alias>AP2204K-3.3</alias>
+        <alias>AP2204K-5.0</alias>
+        <alias>AP2127K-1.0</alias>
+        <alias>AP2127K-1.2</alias>
+        <alias>AP2127K-1.5</alias>
+        <alias>AP2127K-1.8</alias>
+        <alias>AP2127K-2.5</alias>
+        <alias>AP2127K-2.8</alias>
+        <alias>AP2127K-3.0</alias>
+        <alias>AP2127K-3.3</alias>
+        <alias>AP2127K-4.2</alias>
+        <alias>AP2127K-4.75</alias>
+        <alias>AP2112K-1.2</alias>
+        <alias>AP2112K-1.8</alias>
+        <alias>AP2112K-2.5</alias>
+        <alias>AP2112K-2.6</alias>
+        <alias>AP2112K-3.3</alias>
+      </aliases>
+      <description>150mA low dropout linear regulator, wide input voltage range, 1.5V fixed positive output, SOT-23-5</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2204.pdf</docs>
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2204K-1.5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="DTC123J">
+      <description>Digital NPN Transistor, 2k2/47k, SOT-23</description>
+      <footprints>
+        <fp>SOT?23*</fp>
+        <fp>SC?59*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DTC123J</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML0030</alias>
+        <alias>IRLML2060</alias>
+        <alias>TSM2302CX</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="josh-ic" part="CY7C65632-28LTXCT">
+      <description>Cypress 4 Port USB 2.0 Hub</description>
+      <docs>https://www.cypress.com/file/114101/download</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CY7C65632-28LTXCT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="UP_D-" type="BiDi"/>
+        <pin num="2" name="UP_D+" type="BiDi"/>
+        <pin num="3" name="D1_D-" type="BiDi"/>
+        <pin num="4" name="D1_D+" type="BiDi"/>
+        <pin num="5" name="VCC_A" type="power_in"/>
+        <pin num="6" name="D2_D-" type="BiDi"/>
+        <pin num="7" name="D2_D+" type="BiDi"/>
+        <pin num="8" name="RREF" type="BiDi"/>
+        <pin num="9" name="VCC_A" type="power_in"/>
+        <pin num="10" name="XIN" type="BiDi"/>
+        <pin num="11" name="XOUT" type="BiDi"/>
+        <pin num="12" name="D3_D-" type="BiDi"/>
+        <pin num="13" name="D3_D+" type="BiDi"/>
+        <pin num="14" name="VCC_A" type="power_in"/>
+        <pin num="15" name="D4_D-" type="BiDi"/>
+        <pin num="16" name="D4_D+" type="BiDi"/>
+        <pin num="17" name="nRESET" type="BiDi"/>
+        <pin num="18" name="SCL" type="BiDi"/>
+        <pin num="19" name="nOVR_4" type="BiDi"/>
+        <pin num="20" name="nOVR_3" type="BiDi"/>
+        <pin num="21" name="VCC_D" type="power_in"/>
+        <pin num="22" name="SELF_PWR" type="BiDi"/>
+        <pin num="23" name="GANG" type="BiDi"/>
+        <pin num="24" name="nOVR_2" type="BiDi"/>
+        <pin num="25" name="nOVR_1" type="BiDi"/>
+        <pin num="26" name="SDA" type="BiDi"/>
+        <pin num="27" name="VCC" type="power_in"/>
+        <pin num="28" name="VREG" type="power_out"/>
+        <pin num="29" name="GND" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="josh-ic" part="USBLC6-2SC6">
+      <description>Bidirectional ESD Protection Diode, SOT-23-6</description>
+      <docs>http://www2.st.com/resource/en/datasheet/CD00050750.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="IO2" type="passive"/>
+        <pin num="4" name="IO2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="IO1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="josh-keyboard" part="MX-NoLED">
+      <fields>
+        <field name="Reference">MX</field>
+        <field name="Value">MX-NoLED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COL" type="passive"/>
+        <pin num="2" name="ROW" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="josh-keyboard" part="MX_RGB">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">MX_RGB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="DI" type="input"/>
+        <pin num="4" name="DO" type="output"/>
+        <pin num="5" name="5V" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="josh-passive" part="Ferrite_Bead_PWR">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead_PWR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_out"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="josh-passive" part="RN">
+      <description>Resistor Network</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">RN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="LED">
+      <uri>/usr/share/kicad/library/LED.lib</uri>
+    </library>
+    <library logical="MCU_ST_STM32F0">
+      <uri>/usr/share/kicad/library/MCU_ST_STM32F0.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/library/Transistor_BJT.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/library/Transistor_FET.lib</uri>
+    </library>
+    <library logical="josh-ic">
+      <uri>/mnt/530683E96DD773A1/Dropbox/Projects/Hub20/hardware/1.0/../../josh-kicad-lib/josh-ic.lib</uri>
+    </library>
+    <library logical="josh-keyboard">
+      <uri>/mnt/530683E96DD773A1/Dropbox/Projects/Hub20/hardware/1.0/../../josh-kicad-lib/josh-keyboard.lib</uri>
+    </library>
+    <library logical="josh-passive">
+      <uri>/mnt/530683E96DD773A1/Dropbox/Projects/Hub20/hardware/1.0/../../josh-kicad-lib/josh-passive.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C21" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="SW17" pin="5"/>
+      <node ref="SW10" pin="5"/>
+      <node ref="C16" pin="1"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="FB5" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="FB3" pin="2"/>
+      <node ref="SW4" pin="5"/>
+      <node ref="SW21" pin="5"/>
+      <node ref="C37" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="SW3" pin="5"/>
+      <node ref="FB4" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="SW15" pin="5"/>
+      <node ref="SW8" pin="5"/>
+      <node ref="C5" pin="1"/>
+      <node ref="SW6" pin="5"/>
+      <node ref="C8" pin="1"/>
+      <node ref="SW14" pin="5"/>
+      <node ref="SW19" pin="5"/>
+      <node ref="U5" pin="27"/>
+      <node ref="SW12" pin="5"/>
+      <node ref="C12" pin="1"/>
+      <node ref="SW22" pin="5"/>
+      <node ref="R6" pin="1"/>
+      <node ref="SW2" pin="5"/>
+      <node ref="SW23" pin="5"/>
+      <node ref="C10" pin="1"/>
+      <node ref="SW16" pin="5"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D32" pin="2"/>
+      <node ref="SW20" pin="5"/>
+      <node ref="SW9" pin="5"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="SW11" pin="5"/>
+      <node ref="D15" pin="1"/>
+      <node ref="SW5" pin="5"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="SW18" pin="5"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="SW11" pin="6"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="SW5" pin="6"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U3" pin="47"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="C55" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="D3" pin="3"/>
+      <node ref="C50" pin="2"/>
+      <node ref="C52" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="J1" pin="B12"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="J1" pin="A1"/>
+      <node ref="J1" pin="B1"/>
+      <node ref="D9" pin="3"/>
+      <node ref="J1" pin="S1"/>
+      <node ref="D30" pin="3"/>
+      <node ref="D23" pin="3"/>
+      <node ref="D15" pin="3"/>
+      <node ref="D17" pin="3"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C45" pin="2"/>
+      <node ref="SW6" pin="6"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C54" pin="2"/>
+      <node ref="SW12" pin="6"/>
+      <node ref="J1" pin="A12"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="SW7" pin="C"/>
+      <node ref="D2" pin="3"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="SW13" pin="C"/>
+      <node ref="U8" pin="2"/>
+      <node ref="SW21" pin="6"/>
+      <node ref="U6" pin="2"/>
+      <node ref="SW4" pin="6"/>
+      <node ref="J4" pin="B1"/>
+      <node ref="J4" pin="S1"/>
+      <node ref="J4" pin="B12"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="SW3" pin="6"/>
+      <node ref="SW10" pin="6"/>
+      <node ref="C60" pin="2"/>
+      <node ref="SW17" pin="6"/>
+      <node ref="SW19" pin="6"/>
+      <node ref="SW2" pin="6"/>
+      <node ref="C59" pin="2"/>
+      <node ref="SW15" pin="6"/>
+      <node ref="SW8" pin="6"/>
+      <node ref="C51" pin="2"/>
+      <node ref="J4" pin="A12"/>
+      <node ref="J4" pin="A1"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C53" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="SW16" pin="6"/>
+      <node ref="SW23" pin="6"/>
+      <node ref="SW9" pin="6"/>
+      <node ref="C13" pin="2"/>
+      <node ref="SW20" pin="6"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="J3" pin="S1"/>
+      <node ref="U3" pin="23"/>
+      <node ref="J3" pin="B1"/>
+      <node ref="J3" pin="B12"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="SW22" pin="6"/>
+      <node ref="C57" pin="2"/>
+      <node ref="U3" pin="35"/>
+      <node ref="C49" pin="2"/>
+      <node ref="J2" pin="S1"/>
+      <node ref="SW18" pin="6"/>
+      <node ref="C56" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="SW14" pin="6"/>
+      <node ref="U5" pin="29"/>
+      <node ref="U7" pin="2"/>
+      <node ref="J2" pin="A1"/>
+      <node ref="J2" pin="A12"/>
+      <node ref="J2" pin="B1"/>
+      <node ref="J3" pin="A12"/>
+      <node ref="J2" pin="B12"/>
+      <node ref="C58" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="J3" pin="A1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D5-Pad2)">
+      <node ref="SW3" pin="1"/>
+      <node ref="MX1" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="MX2" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D26-Pad2)">
+      <node ref="D26" pin="2"/>
+      <node ref="SW20" pin="1"/>
+      <node ref="MX5" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D28-Pad2)">
+      <node ref="MX6" pin="2"/>
+      <node ref="D28" pin="2"/>
+      <node ref="SW22" pin="1"/>
+    </net>
+    <net code="7" name="Net-(SW23-Pad4)">
+      <node ref="SW23" pin="4"/>
+    </net>
+    <net code="8" name="Net-(SW18-Pad4)">
+      <node ref="SW23" pin="3"/>
+      <node ref="SW18" pin="4"/>
+    </net>
+    <net code="9" name="Net-(D32-Pad1)">
+      <node ref="D32" pin="1"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="10" name="Net-(SW2-Pad4)">
+      <node ref="SW2" pin="4"/>
+      <node ref="SW8" pin="3"/>
+    </net>
+    <net code="11" name="Net-(SW11-Pad4)">
+      <node ref="SW11" pin="4"/>
+      <node ref="SW17" pin="3"/>
+    </net>
+    <net code="12" name="Net-(SW11-Pad3)">
+      <node ref="SW11" pin="3"/>
+      <node ref="SW5" pin="4"/>
+    </net>
+    <net code="13" name="Net-(SW16-Pad4)">
+      <node ref="SW16" pin="4"/>
+      <node ref="SW21" pin="3"/>
+    </net>
+    <net code="14" name="Net-(SW10-Pad4)">
+      <node ref="SW16" pin="3"/>
+      <node ref="SW10" pin="4"/>
+    </net>
+    <net code="15" name="Net-(SW10-Pad3)">
+      <node ref="SW4" pin="4"/>
+      <node ref="SW10" pin="3"/>
+    </net>
+    <net code="16" name="Net-(SW15-Pad4)">
+      <node ref="SW15" pin="4"/>
+      <node ref="SW20" pin="3"/>
+    </net>
+    <net code="17" name="Net-(SW15-Pad3)">
+      <node ref="SW15" pin="3"/>
+      <node ref="SW9" pin="4"/>
+    </net>
+    <net code="18" name="Net-(SW3-Pad4)">
+      <node ref="SW3" pin="4"/>
+      <node ref="SW9" pin="3"/>
+    </net>
+    <net code="19" name="Net-(SW14-Pad4)">
+      <node ref="SW19" pin="3"/>
+      <node ref="SW14" pin="4"/>
+    </net>
+    <net code="20" name="Net-(SW14-Pad3)">
+      <node ref="SW14" pin="3"/>
+      <node ref="SW8" pin="4"/>
+    </net>
+    <net code="21" name="Net-(D16-Pad2)">
+      <node ref="SW7" pin="S2"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="22" name="/R0">
+      <node ref="U3" pin="34"/>
+      <node ref="D24" pin="1"/>
+      <node ref="D16" pin="1"/>
+    </net>
+    <net code="23" name="Net-(D24-Pad2)">
+      <node ref="D24" pin="2"/>
+      <node ref="SW13" pin="S2"/>
+    </net>
+    <net code="24" name="Net-(SW17-Pad4)">
+      <node ref="SW22" pin="3"/>
+      <node ref="SW17" pin="4"/>
+    </net>
+    <net code="25" name="/C3">
+      <node ref="SW19" pin="2"/>
+      <node ref="U3" pin="42"/>
+      <node ref="SW21" pin="2"/>
+      <node ref="SW22" pin="2"/>
+      <node ref="SW23" pin="2"/>
+      <node ref="SW20" pin="2"/>
+      <node ref="MX6" pin="1"/>
+      <node ref="MX5" pin="1"/>
+    </net>
+    <net code="26" name="/L_R4">
+      <node ref="SW22" pin="4"/>
+      <node ref="SW6" pin="3"/>
+    </net>
+    <net code="27" name="/BKLT">
+      <node ref="SW2" pin="3"/>
+      <node ref="D30" pin="2"/>
+    </net>
+    <net code="28" name="/L_R3">
+      <node ref="SW21" pin="4"/>
+      <node ref="SW5" pin="3"/>
+    </net>
+    <net code="29" name="/L_R2">
+      <node ref="SW4" pin="3"/>
+      <node ref="SW20" pin="4"/>
+    </net>
+    <net code="30" name="/USB_MCU_D-">
+      <node ref="U5" pin="15"/>
+      <node ref="U3" pin="32"/>
+    </net>
+    <net code="31" name="Net-(D22-Pad2)">
+      <node ref="SW18" pin="1"/>
+      <node ref="MX4" pin="2"/>
+      <node ref="D22" pin="2"/>
+    </net>
+    <net code="32" name="Net-(D14-Pad2)">
+      <node ref="MX3" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="SW12" pin="1"/>
+    </net>
+    <net code="33" name="/C1">
+      <node ref="MX3" pin="1"/>
+      <node ref="SW12" pin="2"/>
+      <node ref="SW8" pin="2"/>
+      <node ref="U3" pin="17"/>
+      <node ref="SW9" pin="2"/>
+      <node ref="SW10" pin="2"/>
+      <node ref="SW11" pin="2"/>
+      <node ref="SW7" pin="S1"/>
+    </net>
+    <net code="34" name="/C2">
+      <node ref="SW16" pin="2"/>
+      <node ref="MX4" pin="1"/>
+      <node ref="SW15" pin="2"/>
+      <node ref="U3" pin="43"/>
+      <node ref="SW14" pin="2"/>
+      <node ref="SW18" pin="2"/>
+      <node ref="SW13" pin="S1"/>
+      <node ref="SW17" pin="2"/>
+    </net>
+    <net code="35" name="/USB_MCU_D+">
+      <node ref="U3" pin="33"/>
+      <node ref="U5" pin="16"/>
+    </net>
+    <net code="36" name="Net-(SW12-Pad4)">
+      <node ref="SW12" pin="4"/>
+      <node ref="SW18" pin="3"/>
+    </net>
+    <net code="37" name="Net-(SW12-Pad3)">
+      <node ref="SW12" pin="3"/>
+      <node ref="SW6" pin="4"/>
+    </net>
+    <net code="38" name="/E1A">
+      <node ref="RN1" pin="6"/>
+      <node ref="RN1" pin="5"/>
+      <node ref="SW7" pin="A"/>
+    </net>
+    <net code="39" name="/L_R1">
+      <node ref="SW3" pin="3"/>
+      <node ref="SW19" pin="4"/>
+    </net>
+    <net code="40" name="/E1B">
+      <node ref="RN1" pin="7"/>
+      <node ref="SW7" pin="B"/>
+      <node ref="RN1" pin="8"/>
+    </net>
+    <net code="41" name="/ENC1A_DB">
+      <node ref="U3" pin="25"/>
+      <node ref="RN1" pin="4"/>
+      <node ref="C50" pin="1"/>
+    </net>
+    <net code="42" name="/ENC1B_DB">
+      <node ref="U3" pin="26"/>
+      <node ref="RN1" pin="1"/>
+      <node ref="C52" pin="1"/>
+    </net>
+    <net code="43" name="/ENC2B_DB">
+      <node ref="C53" pin="1"/>
+      <node ref="RN2" pin="1"/>
+      <node ref="U3" pin="30"/>
+    </net>
+    <net code="44" name="/ENC2A_DB">
+      <node ref="U3" pin="29"/>
+      <node ref="RN2" pin="4"/>
+      <node ref="C51" pin="1"/>
+    </net>
+    <net code="45" name="Net-(U3-Pad15)">
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="46" name="Net-(U3-Pad22)">
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="47" name="Net-(U3-Pad21)">
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="48" name="Net-(U3-Pad20)">
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="49" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="50" name="Net-(U3-Pad19)">
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="51" name="Net-(U3-Pad18)">
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="52" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="53" name="Net-(U3-Pad13)">
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="54" name="+3V3">
+      <node ref="C49" pin="1"/>
+      <node ref="U3" pin="24"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C38" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="RN1" pin="3"/>
+      <node ref="R5" pin="1"/>
+      <node ref="RN1" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U3" pin="36"/>
+      <node ref="U3" pin="9"/>
+      <node ref="C48" pin="1"/>
+      <node ref="U3" pin="48"/>
+      <node ref="RN2" pin="2"/>
+      <node ref="RN2" pin="3"/>
+      <node ref="C40" pin="1"/>
+    </net>
+    <net code="55" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="56" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="57" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="58" name="Net-(U3-Pad38)">
+      <node ref="U3" pin="38"/>
+    </net>
+    <net code="59" name="Net-(U3-Pad37)">
+      <node ref="U3" pin="37"/>
+    </net>
+    <net code="60" name="Net-(U3-Pad45)">
+      <node ref="U3" pin="45"/>
+    </net>
+    <net code="61" name="Net-(U3-Pad46)">
+      <node ref="U3" pin="46"/>
+    </net>
+    <net code="62" name="Net-(U3-Pad39)">
+      <node ref="U3" pin="39"/>
+    </net>
+    <net code="63" name="Net-(U3-Pad40)">
+      <node ref="U3" pin="40"/>
+    </net>
+    <net code="64" name="Net-(U3-Pad41)">
+      <node ref="U3" pin="41"/>
+    </net>
+    <net code="65" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="66" name="Net-(D1-Pad2)">
+      <node ref="Q1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="67" name="/LED">
+      <node ref="Q2" pin="2"/>
+      <node ref="U3" pin="28"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="68" name="/BOOT0">
+      <node ref="D1" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U3" pin="44"/>
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="69" name="/nRST">
+      <node ref="U3" pin="7"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="C18" pin="1"/>
+    </net>
+    <net code="70" name="Net-(JP1-Pad1)">
+      <node ref="R14" pin="2"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="71" name="/E2B">
+      <node ref="RN2" pin="8"/>
+      <node ref="RN2" pin="7"/>
+      <node ref="SW13" pin="B"/>
+    </net>
+    <net code="72" name="/E2A">
+      <node ref="RN2" pin="6"/>
+      <node ref="SW13" pin="A"/>
+      <node ref="RN2" pin="5"/>
+    </net>
+    <net code="73" name="/LED_5V">
+      <node ref="D2" pin="4"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="74" name="Net-(D15-Pad4)">
+      <node ref="D15" pin="4"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="75" name="Net-(D2-Pad2)">
+      <node ref="D3" pin="4"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="76" name="Net-(D3-Pad2)">
+      <node ref="D9" pin="4"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="77" name="Net-(D15-Pad2)">
+      <node ref="D17" pin="4"/>
+      <node ref="D15" pin="2"/>
+    </net>
+    <net code="78" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2"/>
+      <node ref="D23" pin="4"/>
+    </net>
+    <net code="79" name="Net-(D23-Pad2)">
+      <node ref="D30" pin="4"/>
+      <node ref="D23" pin="2"/>
+    </net>
+    <net code="80" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="81" name="/USB_D+">
+      <node ref="U2" pin="4"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="82" name="/USB_D-">
+      <node ref="U2" pin="6"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="83" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1"/>
+      <node ref="FB1" pin="2"/>
+    </net>
+    <net code="84" name="VBUS">
+      <node ref="F1" pin="2"/>
+      <node ref="J1" pin="A4"/>
+      <node ref="C14" pin="1"/>
+      <node ref="J1" pin="B4"/>
+      <node ref="J1" pin="B9"/>
+      <node ref="J1" pin="A9"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="85" name="Net-(J1-PadB8)">
+      <node ref="J1" pin="B8"/>
+    </net>
+    <net code="86" name="Net-(J1-PadB5)">
+      <node ref="J1" pin="B5"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="87" name="Net-(J1-PadA8)">
+      <node ref="J1" pin="A8"/>
+    </net>
+    <net code="88" name="Net-(J1-PadA5)">
+      <node ref="J1" pin="A5"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="89" name="/USB+">
+      <node ref="J1" pin="A6"/>
+      <node ref="J1" pin="B6"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="90" name="/USB-">
+      <node ref="J1" pin="A7"/>
+      <node ref="J1" pin="B7"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="91" name="Net-(D8-Pad2)">
+      <node ref="SW6" pin="1"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="92" name="/R2">
+      <node ref="D5" pin="1"/>
+      <node ref="U3" pin="31"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D26" pin="1"/>
+    </net>
+    <net code="93" name="/R1">
+      <node ref="D10" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="U3" pin="27"/>
+    </net>
+    <net code="94" name="/R4">
+      <node ref="U3" pin="12"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D28" pin="1"/>
+    </net>
+    <net code="95" name="Net-(D29-Pad2)">
+      <node ref="SW23" pin="1"/>
+      <node ref="D29" pin="2"/>
+    </net>
+    <net code="96" name="/R5">
+      <node ref="U3" pin="11"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="D29" pin="1"/>
+    </net>
+    <net code="97" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2"/>
+      <node ref="SW11" pin="1"/>
+    </net>
+    <net code="98" name="/R3">
+      <node ref="D6" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="U3" pin="10"/>
+      <node ref="D20" pin="1"/>
+    </net>
+    <net code="99" name="/C0">
+      <node ref="U3" pin="16"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="MX1" pin="1"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="MX2" pin="1"/>
+      <node ref="SW6" pin="2"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="SW5" pin="2"/>
+    </net>
+    <net code="100" name="Net-(D18-Pad2)">
+      <node ref="SW14" pin="1"/>
+      <node ref="D18" pin="2"/>
+    </net>
+    <net code="101" name="Net-(D10-Pad2)">
+      <node ref="SW8" pin="1"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="102" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2"/>
+      <node ref="SW19" pin="1"/>
+    </net>
+    <net code="103" name="Net-(D4-Pad2)">
+      <node ref="SW2" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="104" name="Net-(D6-Pad2)">
+      <node ref="SW4" pin="1"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="105" name="Net-(D27-Pad2)">
+      <node ref="SW21" pin="1"/>
+      <node ref="D27" pin="2"/>
+    </net>
+    <net code="106" name="Net-(D21-Pad2)">
+      <node ref="SW17" pin="1"/>
+      <node ref="D21" pin="2"/>
+    </net>
+    <net code="107" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="SW10" pin="1"/>
+    </net>
+    <net code="108" name="Net-(D20-Pad2)">
+      <node ref="D20" pin="2"/>
+      <node ref="SW16" pin="1"/>
+    </net>
+    <net code="109" name="Net-(D19-Pad2)">
+      <node ref="SW15" pin="1"/>
+      <node ref="D19" pin="2"/>
+    </net>
+    <net code="110" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2"/>
+      <node ref="SW9" pin="1"/>
+    </net>
+    <net code="111" name="Net-(C60-Pad1)">
+      <node ref="U8" pin="5"/>
+      <node ref="J4" pin="A4"/>
+      <node ref="C60" pin="1"/>
+      <node ref="J4" pin="B9"/>
+      <node ref="F4" pin="1"/>
+      <node ref="J4" pin="B4"/>
+      <node ref="J4" pin="A9"/>
+    </net>
+    <net code="112" name="Net-(F3-Pad2)">
+      <node ref="FB4" pin="1"/>
+      <node ref="F3" pin="2"/>
+    </net>
+    <net code="113" name="Net-(C59-Pad1)">
+      <node ref="C59" pin="1"/>
+      <node ref="U7" pin="5"/>
+      <node ref="F3" pin="1"/>
+      <node ref="J3" pin="B9"/>
+      <node ref="J3" pin="B4"/>
+      <node ref="J3" pin="A4"/>
+      <node ref="J3" pin="A9"/>
+    </net>
+    <net code="114" name="Net-(J2-PadA7)">
+      <node ref="U6" pin="1"/>
+      <node ref="J2" pin="A7"/>
+      <node ref="J2" pin="B7"/>
+    </net>
+    <net code="115" name="Net-(J2-PadA6)">
+      <node ref="J2" pin="A6"/>
+      <node ref="U6" pin="3"/>
+      <node ref="J2" pin="B6"/>
+    </net>
+    <net code="116" name="Net-(F4-Pad2)">
+      <node ref="FB5" pin="1"/>
+      <node ref="F4" pin="2"/>
+    </net>
+    <net code="117" name="Net-(F2-Pad2)">
+      <node ref="FB3" pin="1"/>
+      <node ref="F2" pin="2"/>
+    </net>
+    <net code="118" name="/USB Hub/D3_D-">
+      <node ref="U5" pin="12"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="119" name="/USB Hub/D3_D+">
+      <node ref="U8" pin="4"/>
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="120" name="Net-(J4-PadB8)">
+      <node ref="J4" pin="B8"/>
+    </net>
+    <net code="121" name="Net-(J4-PadB5)">
+      <node ref="J4" pin="B5"/>
+    </net>
+    <net code="122" name="Net-(J4-PadA8)">
+      <node ref="J4" pin="A8"/>
+    </net>
+    <net code="123" name="Net-(J4-PadA7)">
+      <node ref="U8" pin="1"/>
+      <node ref="J4" pin="B7"/>
+      <node ref="J4" pin="A7"/>
+    </net>
+    <net code="124" name="Net-(J4-PadA6)">
+      <node ref="U8" pin="3"/>
+      <node ref="J4" pin="A6"/>
+      <node ref="J4" pin="B6"/>
+    </net>
+    <net code="125" name="Net-(J4-PadA5)">
+      <node ref="J4" pin="A5"/>
+    </net>
+    <net code="126" name="+3.3VP">
+      <node ref="RN3" pin="6"/>
+      <node ref="RN3" pin="5"/>
+      <node ref="RN3" pin="7"/>
+      <node ref="RN3" pin="8"/>
+      <node ref="C41" pin="1"/>
+      <node ref="FB2" pin="2"/>
+      <node ref="C56" pin="1"/>
+      <node ref="C57" pin="1"/>
+      <node ref="U5" pin="21"/>
+      <node ref="U5" pin="28"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="127" name="Net-(R8-Pad1)">
+      <node ref="U5" pin="17"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="128" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U5" pin="22"/>
+    </net>
+    <net code="129" name="Net-(J3-PadA7)">
+      <node ref="J3" pin="A7"/>
+      <node ref="J3" pin="B7"/>
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="130" name="Net-(J3-PadA6)">
+      <node ref="J3" pin="B6"/>
+      <node ref="U7" pin="3"/>
+      <node ref="J3" pin="A6"/>
+    </net>
+    <net code="131" name="Net-(R10-Pad1)">
+      <node ref="U5" pin="8"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="132" name="/USB Hub/D2_D+">
+      <node ref="U5" pin="7"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="133" name="/USB Hub/D2_D-">
+      <node ref="U7" pin="6"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="134" name="Net-(U5-Pad26)">
+      <node ref="U5" pin="26"/>
+    </net>
+    <net code="135" name="/USB Hub/nOVR_1">
+      <node ref="RN3" pin="1"/>
+      <node ref="U5" pin="25"/>
+    </net>
+    <net code="136" name="/USB Hub/nOVR_2">
+      <node ref="RN3" pin="2"/>
+      <node ref="U5" pin="24"/>
+    </net>
+    <net code="137" name="Net-(R7-Pad1)">
+      <node ref="U5" pin="23"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="138" name="/USB Hub/nOVR_3">
+      <node ref="U5" pin="20"/>
+      <node ref="RN3" pin="3"/>
+    </net>
+    <net code="139" name="/USB Hub/nOVR_4">
+      <node ref="RN3" pin="4"/>
+      <node ref="U5" pin="19"/>
+    </net>
+    <net code="140" name="Net-(U5-Pad18)">
+      <node ref="U5" pin="18"/>
+    </net>
+    <net code="141" name="Net-(J2-PadB5)">
+      <node ref="J2" pin="B5"/>
+    </net>
+    <net code="142" name="Net-(J2-PadA8)">
+      <node ref="J2" pin="A8"/>
+    </net>
+    <net code="143" name="Net-(J2-PadA5)">
+      <node ref="J2" pin="A5"/>
+    </net>
+    <net code="144" name="Net-(C58-Pad1)">
+      <node ref="J2" pin="B4"/>
+      <node ref="J2" pin="A9"/>
+      <node ref="J2" pin="A4"/>
+      <node ref="F2" pin="1"/>
+      <node ref="J2" pin="B9"/>
+      <node ref="U6" pin="5"/>
+      <node ref="C58" pin="1"/>
+    </net>
+    <net code="145" name="Net-(J2-PadB8)">
+      <node ref="J2" pin="B8"/>
+    </net>
+    <net code="146" name="+3.3VA">
+      <node ref="C42" pin="1"/>
+      <node ref="U5" pin="14"/>
+      <node ref="C47" pin="1"/>
+      <node ref="C55" pin="1"/>
+      <node ref="C43" pin="1"/>
+      <node ref="C46" pin="1"/>
+      <node ref="U5" pin="9"/>
+      <node ref="FB2" pin="1"/>
+      <node ref="C54" pin="1"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="147" name="/USB Hub/D1_D-">
+      <node ref="U5" pin="3"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="148" name="Net-(J3-PadA8)">
+      <node ref="J3" pin="A8"/>
+    </net>
+    <net code="149" name="Net-(J3-PadB8)">
+      <node ref="J3" pin="B8"/>
+    </net>
+    <net code="150" name="Net-(J3-PadB5)">
+      <node ref="J3" pin="B5"/>
+    </net>
+    <net code="151" name="Net-(J3-PadA5)">
+      <node ref="J3" pin="A5"/>
+    </net>
+    <net code="152" name="/USB Hub/D1_D+">
+      <node ref="U5" pin="4"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="153" name="/USB Hub/XOUT">
+      <node ref="Y1" pin="3"/>
+      <node ref="C45" pin="1"/>
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="154" name="/USB Hub/XIN">
+      <node ref="C44" pin="1"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="U5" pin="10"/>
+    </net>
+  </nets>
+</export>
