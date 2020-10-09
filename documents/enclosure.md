@@ -12,7 +12,7 @@ By default, the enclosure has the below stackup:
 --- Hub20 PCB, 1.6mm
 --- Acrylic Mid, 4mm
 --- Acrylic Lower, 3mm
-  - Acrylic Incline, 3mm (optional)
+  - Acrylic Incline, 3-4mm (optional)
 ```
 
 You can however make a number of substitutions:
