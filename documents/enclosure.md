@@ -8,7 +8,7 @@ By default, the enclosure has the below stackup:
 
 ```
 --- PCB Plate, 1.6mm
---- Acrylic Upper, 3mm
+--- Acrylic Upper, 4mm
 --- Hub20 PCB, 1.6mm
 --- Acrylic Mid, 4mm
 --- Acrylic Lower, 3mm
@@ -17,7 +17,7 @@ By default, the enclosure has the below stackup:
 
 You can however make a number of substitutions:
 
-- Swap PCB plate for 3mm acrylic - note some switches may have reduced insertion depth into the PCB.
-- Move acrylic upper to 4mm - note some switches may have reduced insertion depth into the PCB.
+- Swap PCB plate for 3mm acrylic, and move upper 4mm acrylic to 3mm - note some switches may have reduced insertion depth into the PCB.
 - Replace acrylic lower with FR4 PCB.
 - 3d print parts instead of laser cutting of utilising PCBs for mechanical elements.
+- Design your own! .step file can be exported from KiCad into you mCad tool of choice.

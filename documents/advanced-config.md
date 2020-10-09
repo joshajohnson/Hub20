@@ -10,7 +10,7 @@ The macro functionality of Hub20 is quite unique, as it moves control over what 
 
 - Dynamically assigning keys pressed depending on open application, e.g. encoder changing zoom in Photoshop, but zooming timeline in Premiere.
 - Accessing low level functions, such as directly bringing a given application to the foreground without tabbing through open windows.
-- Running shell commands without opening a shell and playing back key presses.
+- Running shell commands without opening a shell and playing back key sequences.
 - Any other feature that your software (AutoHotKey, Karabiner-Elements, Autokey) provides an interface for.
 
 ## Theory of Operation
@@ -25,7 +25,7 @@ The macro functionality of Hub20 is quite unique, as it moves control over what 
 
 The default configuration can be easily changed, allowing for further customisation of the board. Examples of what can be done include:
 
-- Holding down a key / encoder results in different keys being sent when rotating the encoder, effectively doubling (or tripling etc) the usefulness of encoders on the board.
+- Holding down a key / encoder button results in different keys being sent when rotating the encoder, effectively doubling (or tripling etc) the number of encoders on the board.
 - Extending the number of macro keys by having multiple layers of unique keys, accessed by the bottom row of keys being dedicated to shifting layers.
 - Building the macro configuration with VIA enabled, allowing LEDs to be customised from the VIA GUI instead of tapping keys to change the mode and colour.
 
@@ -41,7 +41,7 @@ Key sections of the code and their function are outlined below:
 
 ## Software Configuration
 
-Due to the different software required for each OS, and the varying levels of options each tool provides, it's challenging to make any specific recommendations for ways to customise the software running on your host PC. With this said, I would strongly suggest looking at the `hub20-example.ahk` script which is an obfuscated version of what I use at work every day, along with the documentation of your chosen scripting tool to see what is possible, and think how it may help your day to day workflow. Below are some examples of what they have used their Hub16 / Hub20 to automate:
+Due to the different software being required for each OS, and the varying levels of options each tool provides, it's challenging to make any specific recommendations for ways to customise the software running on your host PC. With this said, I would strongly suggest looking at the `hub20-example.ahk` script which is an obfuscated version of what I use at work every day, along with the documentation of your chosen scripting tool to see what is possible, and think how it may help your day to day workflow. Below are some examples of what people have used their Hub16 / Hub20 to automate:
 
 - Running complex shortcuts with a single key.
 - Placing common shortcuts (enlarge / shrink) on the encoders to ease adjustment.

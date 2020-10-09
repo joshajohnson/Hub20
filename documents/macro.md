@@ -2,7 +2,7 @@
 
 Hub20 can also be used with software on your computer to enable powerful, context aware macros to be run.
 
-This works by sending uniquely identifiable keys to your computer which are picked up by some software, which can than map those keys as required. As such, this requires the correct firmware to be loaded onto Hub20, and software to be installed on your computer.
+This works by sending uniquely identifiable keys to your computer which are picked up by software, which can then map those keys as required. As such, this requires the correct firmware to be loaded onto Hub20, and software to be installed on your computer.
 
 ## Firmware
 
@@ -27,11 +27,11 @@ The default configuration for the keyboard is shown below:
 ------------------
 ```
 
-Once flashing the macro layout you may notice that holding or tapping the top right key quickly may not result in a key being sent. This because if you double tap that key, it will bring you to a configuration layer on the keyboard which allows you to control the LEDs and reset the keyboard.  Double tapping the same key will return you to the base layer. The keymap for this configuration is shown below:
+\* Once flashing the macro layout you may notice that holding or tapping the top right key quickly may not result in a key being sent. This because if you double tap that key, it will bring you to a configuration layer on the keyboard which allows you to control the LEDs and reset the keyboard.  Double tapping the same key will return you to the base layer. The keymap for this configuration is shown below:
 
 ```
                 Reset,   _______,
-RGB On/Off,  RGB Prev,  RGB Next,       Back,
+ RGB On/Off,  RGB Prev,  RGB Next,       Home,
     _______,  Bright +,  BRIGHT -,    _______,
     _______,     Hue +,     Hub -,    _______,
     _______,     Sat +,     Sat -,    _______,
@@ -44,14 +44,14 @@ RGB On/Off,  RGB Prev,  RGB Next,       Back,
 ### Windows
 
 - Download and install [AutoHotKey](https://www.autohotkey.com/).
-- Copy the example script from `software/hub20.ahk` into a folder of your choice.
+- Copy the example script from `software/hub20-template.ahk` into a folder of your choice.
 - For the script to run at startup, I strongly suggest placing a shortcut to the above file in `%APPDATA%/Roaming/Microsoft/Windows/Start Menu/Programs/Start-up`.
 - Configure the script to suit your use case, ensuring to restart the AHK script after each change, otherwise it will not use the latest changes.
 
 ### macOS
 
 - Install [Karabiner-Elements](https://karabiner-elements.pqrs.org/docs/getting-started/installation/).
-- Copy the example script from `software/hub20.json` to your local `~.config/karabiner` folder.
+- Copy the example script from `software/karabiner-hub20.json` to your local `~.config/karabiner` folder.
 - Configure keybindings as required.
 
 ### Linux

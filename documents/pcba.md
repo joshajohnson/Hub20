@@ -4,7 +4,7 @@ I highly recommend assembling this board using solder paste, a stencil, and a re
 
 - Gerbers can be found in `production/1.0-prod/gerbers.zip` folder, and can be uploaded to your favourite PCB manufacturer.
 - Most PCB houses will generate the solderpaste stencil from your copper layer, which can cause issues. As such I recommend uploading the stencil separately to ensure the apertures are as per the design files.
-- The bill of materials can be found at `production/1.0-prod/bom.csv` and contains part numbers for all components on the board. DigiKey and LCSC part numbers are provided where available, however some parts such at the USB connectors, and reverse mount LEDs, and USB hub may only be available at one or neither of the suppliers.
+- The bill of materials can be found at `production/1.0-prod/bom.csv` and contains part numbers for all components on the board. DigiKey and LCSC part numbers are provided where available, however some parts such at the USB connectors, reverse mount LEDs, and USB hub may only be available at one or neither of the suppliers.
 - The "Human PnP" file is located at `production/1.0-prod/assembly.html`, and will be very helpful in assembling the board.
 
 With the board assembled and reflowed, it is time to power it up and flash the firmware.

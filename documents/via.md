@@ -12,7 +12,7 @@ VIA is a great way to graphically configure your keyboard without going through 
 
 To use VIA, first [download and install](https://caniusevia.com/) the configuration software, and then plug in your keyboard. It should detect and show a graphic of Hub20 on your screen.
 
-**Note: Hub20 ships with VIA by default, however if you have flashed a custom firmware on it you will need to ensure a VIA compatible version is on your board before continuing.**
+**Note: Hub20 ships with VIA by default, however if you have flashed a custom firmware on it you will need to ensure a VIA compatible keymap is on your board before continuing.**
 
 ## Configure Keys
 
@@ -27,7 +27,7 @@ By default, the encoders are configured to volume up / down (left) and media nex
 Unfortunately, due to limitations in VIA the encoders are not visible or configurable. The best workaround at this time is to build a new VIA keymap with the encoder functions altered to suit your use case, flash this onto the board, and then configure the remainder of the keys in VIA. This can be done by following the below instructions:
 
 - Follow the QMK [getting started guide](https://docs.qmk.fm/#/newbs_getting_started) to install the toolchain and configure your build environment.
-- If you are reading this, the Hub20 is not yet merged into QMK. Copy the `hub20` folder in `firmware` to `qmk_firmware/keyboards/hub20` before continuing.
+- If you are reading this, the Hub20 firmware is not yet merged into QMK. Copy the `hub20` folder in `firmware` to `qmk_firmware/keyboards/hub20` before continuing.
 - Open the `qmk_firmware/keyboards/hub20/keymaps/via/keymap.c` file in your preferred text editor.
 - Locate the function `encoder_update_user`, and update the keycodes in `tap_code(KC_xxx)` to one from the [keycodes list](https://docs.qmk.fm/#/keycodes?id=basic-keycodes). If you use keycode not on the basic list, you may need to replace `tap_code` with `tap_code16`.
 - With the changes made, save your new keymap, build, and flash the keymap to Hub20 with `make hub20:via:flash` run from the `qmk_firmware` directory.
