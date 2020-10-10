@@ -16,6 +16,7 @@ def read_firmware():
     read = "dfu-util -d 0483:df11 -a 0 -s 0x08000000:131072 -U firmware.bin"
     os.system(read)
 
+
 def write_firmware():
     # Write entire firmware, including VIA EEPROM emulation
     write = "dfu-util -d 0483:df11 -a 0 -s 0x08000000:leave -D firmware.bin"
