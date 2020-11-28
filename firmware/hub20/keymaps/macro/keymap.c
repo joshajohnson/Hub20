@@ -24,7 +24,7 @@ enum keyboard_layers{
     _CTRL
 };
 
-// Tap Dance Declaration
+// Tap Dance stuff
 void td_ctrl (qk_tap_dance_state_t *state, void *user_data);
 
 enum tap_dance {
@@ -86,19 +86,19 @@ void encoder_update_user(uint8_t index, bool clockwise) {
 // Below stolen from TaranVH (https://github.com/TaranVH/2nd-keyboard/blob/master/HASU_USB/F24/keymap.c)
 // Shoutout to drashna on the QMK discord for basically writing this for me.... :P
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-    static uint8_t f24_tracker;
+    static uint8_t f23_tracker;
     switch (keycode) {
         // Wrap sent keys in KC_WRAP
         case KC_A ... KC_F22:
         case KC_EXECUTE ... KC_EXSEL:
             if (record->event.pressed) {
                 register_code(KC_WRAP);
-                f24_tracker++;
+                f23_tracker++;
                 register_code(keycode);
             } else {
                 unregister_code(keycode);
-                f24_tracker--;
-                if (!f24_tracker) {
+                f23_tracker--;
+                if (!f23_tracker) {
                     unregister_code(KC_WRAP);
                 }
             }

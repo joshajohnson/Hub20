@@ -15,7 +15,7 @@ Before assembling the board, ensure you have all of the required parts.
 * 17-20 * 1U Cherry MX Keycaps (not shown)
 * 0-3 * Screw In Stabilisers (not shown)
 
-You will also require the following tools:
+You will also require the following:
 
 * Soldering iron and solder
 * 1.5mm allen key
@@ -29,7 +29,7 @@ If you are assembling the barebones version, follow the below steps but omit the
 
 Whilst we do our best to ensure the PCBs work, there may be issues that slip through QC or the boards may be damaged in freight. As such you should test the PCB before continuing.
 
-Boards come preloaded with QMK for testing, and using their "Key Tester -> Test Matrix" option is the easiest way to ensure the board works.
+Boards come preloaded with VIA for testing, and using their "Key Tester -> Test Matrix" option is the easiest way to ensure the board works.
 
 **Check the key switches by using tweezers to short the key switch pins together.**  
 ![Checking Keys](imgs/assembly-instructions/check-switches.JPG)
@@ -69,7 +69,7 @@ When installing the stabilisers, ensure you use the non-conductive washers which
 
 ### Step 3: Assemble upper case
 
-With the encoders soldered and stabilisers installed, the next step is to thread the standoffs into the shorter screws through the top plate. Just do this up touch tight, as we may need to loosen it later depending on case option.
+With the encoders soldered and stabilisers installed, the next step is to thread the standoffs into the shorter screws through the top plate. Just do this up touch tight, as we may need to loosen it later.
 ![Bottom plate assembly](imgs/assembly-instructions/step-3.JPG)
 
 ### Step 4: Add "O" shaped spacer
@@ -96,7 +96,7 @@ When installing the bottom plate, if you choose to use the small riser you will 
 ![Spacer sitting flush](imgs/assembly-instructions/step-7-1.JPG)
 
 After installing the bottom plate and screws, snug all of the bolts up and your Hub20 is now assembled!
-![Bottom plates assembled](imgs/assembly-instructions/step-7-1.JPG)
+![Bottom plates assembled](imgs/assembly-instructions/step-7-2.JPG)
 
 ### Step 8: Add keycaps and encoder knobs
 
