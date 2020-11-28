@@ -19,5 +19,5 @@ You can however make a number of substitutions:
 
 - Swap PCB plate for 3mm acrylic, and move upper 4mm acrylic to 3mm - note some switches may have reduced insertion depth into the PCB.
 - Replace acrylic lower with FR4 PCB.
-- 3d print parts instead of laser cutting of utilising PCBs for mechanical elements.
+- 3d print parts instead of laser cutting or utilising PCBs for mechanical elements.
 - Design your own! .step file can be exported from KiCad into you mCad tool of choice.
