@@ -16,7 +16,7 @@ Hardware is stable and firmware is close to finished. All going well will be ava
 
 ## Getting Started Guide
 
-- Keyboard Assembly
+- [Keyboard Assembly](documents/keyboard-assembly.md)
 - [VIA Keymap Configuration](documents/via.md)
 - [Macro Configuration](documents/macro.md)
 

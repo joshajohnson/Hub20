@@ -50,22 +50,13 @@ if __name__ == "__main__":
     parser.add_argument("-e", "--read_eeprom",  action='store_true')
     parser.add_argument("-w", "--write_eeprom", action='store_true')
     parser.add_argument("-t", "--test",         action='store_true')
-    parser.add_argument("-r", "--repeat",       action='store_true')
     args = parser.parse_args()
 
-    while True:
-
-	    if args.qmk:
-	        qmk()
-        if args.read_eeprom:
-            read_firmware()
-        if args.write_eeprom:
-            write_firmware()
-	    if args.test:
-	        test()
-
-	    if args.repeat == False:
-	    	break
-	    time.sleep(1)
-
-	    input("Press any key to continue.")
+    if args.qmk:
+        qmk()
+    if args.read_eeprom:
+        read_firmware()
+    if args.write_eeprom:
+        write_firmware()
+    if args.test:
+        test()
