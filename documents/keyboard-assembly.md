@@ -7,9 +7,9 @@ Before assembling the board, ensure you have all of the required parts.
 * Laser cut acrylic - 4 pieces
 * 2 * Rotary encoders (20mm recommended)
 * 2 * Rotary encoder knobs
-* 4 * 4mm M2 cap head bolts (barebones 8 * 4mm)
+* 4 * 4mm M2 cap head bolts (bare-bones 8 * 4mm)
 * 4 * 8mm M2 cap head bolts
-* 4 * 8mm female threaded standoffs (barebones 10mm)
+* 4 * 8mm female threaded standoffs (bare-bones 10mm)
 * 4 * Rubber feet (optional)
 * 17-20 * Cherry MX Key Switches (not shown)
 * 17-20 * 1U Cherry MX Keycaps (not shown)
@@ -21,7 +21,7 @@ You will also require the following:
 * 1.5mm allen key
 * Dielectric Grease (to lube stabilisers)
 
-If you are assembling the barebones version, follow the below steps but omit the acrylic parts.
+If you are assembling the bare-bones version, follow the below steps but omit the acrylic parts.
 
 ![Parts Required](imgs/assembly-instructions/required-parts.JPG)
 
