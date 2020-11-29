@@ -1,5 +1,7 @@
 # Hub20
 
+![Hub20](documents/imgs/header.JPG)
+
 Hub20 is a numpad with a bunch of features you never knew you needed. They include:
 
 - Left and Right handed layouts supported, along with a 4x5 1U grid enabling it to be used as a macropad.
@@ -13,6 +15,8 @@ If this project looks familiar, it's because it contains all the best parts of [
 ## Project Status
 
 Hardware is stable and firmware is close to finished. All going well will be available for purchase on Tindie before end of year, otherwise everything you need to build your own is available in this repo.
+
+![Hub20](documents/imgs/multiple-boards.JPG)
 
 ## Getting Started Guide
 
