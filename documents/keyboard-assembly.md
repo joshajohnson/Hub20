@@ -29,7 +29,7 @@ If you are assembling the bare-bones version, follow the below steps but omit th
 
 Whilst we do our best to ensure the PCBs work, there may be issues that slip through QC or the boards may be damaged in freight. As such you should test the PCB before continuing.
 
-Boards come preloaded with VIA for testing, and using their "Key Tester -> Test Matrix" option is the easiest way to ensure the board works.
+Boards come preloaded with VIA for testing, and using their "Key Tester -> Test Matrix" option is the easiest way to ensure the board works. `If you are reading this, VIA is not upstream yet. follow ` [these](via.md) `instructions to load the config file so the board can be detected.`
 
 **Check the key switches by using tweezers to short the key switch pins together.**  
 ![Checking Keys](imgs/assembly-instructions/check-switches.JPG)
