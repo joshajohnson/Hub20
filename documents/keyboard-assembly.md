@@ -11,7 +11,7 @@ Before assembling the board, ensure you have all of the required parts.
 * 4 * 8mm M2 cap head bolts
 * 4 * 8mm female threaded standoffs (bare-bones 10mm)
 * 4 * Rubber feet (optional)
-* 17-20 * Cherry MX Key Switches (not shown)
+* 17-20 * Cherry MX Key Switches (not shown) (3 pin switches required for 2U keys)
 * 17-20 * 1U Cherry MX Keycaps (not shown)
 * 0-3 * Screw In Stabilisers (not shown)
 
@@ -46,7 +46,7 @@ You should see a your device appear on each port.
 
 ### Step 1: Solder Encoders
 
-The first step in assembling your Hub16 is to solder the rotary encoders. Ensuring the pins are straight, insert the rotary encoders and tack in two pins on opposite corners.
+The first step in assembling your Hub20 is to solder the rotary encoders. Ensuring the pins are straight, insert the rotary encoders and tack in two pins on opposite corners.
 ![Tacking encoder](imgs/assembly-instructions/step-1-1.JPG)
 
 Before soldering in the remaining pins, ensure the encoder is perpendicular. If adjustments are required, heat one of the solder joints and gently push the encoder until it is seated. Repeat until you are satisfied with how the encoders look. (Hint: you shouldn't be able to see the encoder hiding on the other side of the board!)
