@@ -4,6 +4,7 @@
 
 - Open the settings tab in VIA, and enable "Show Design Tab".
 - On the design tab, click "load" and select the [hub20.json](../software/via-hub20.json) file.
+	- To download the json file, click through to the above link, select raw, copy all of the next into notepad or a similar text editor, and save as hub20.json.
 - Hub20 should now be detected by VIA.
 
 VIA is a great way to graphically configure your keyboard without going through the hassle of configuring build environments and poking around in the code.
