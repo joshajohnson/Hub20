@@ -1,6 +1,6 @@
 # VIA Keymap Configuration
 
-`Note: If you are reading this, the Hub20 config is not yet merged into VIA. Follow the below instructions to add the keyboard before continuing.`
+`Hub20 was recently merged into VIA, so it should be automatically detected. If for some reason it is not, the below info should allow you to manually load the config file.`
 
 - Open the settings tab in VIA, and enable "Show Design Tab".
 - On the design tab, click "load" and select the [hub20.json](../software/via-hub20.json) file.
