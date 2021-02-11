@@ -14,7 +14,7 @@ If this project looks familiar, it's because it contains all the best parts of [
 
 ## Project Status
 
-Hardware is finalised and kits can be purchased from [Tindie](https://www.tindie.com/products/joshajohnson/hub20-programmable-macro-numberpad/). Firmware is stable and will be merged upstream after some torture testing from early adopters.
+Hardware is finalised and kits can be purchased from [Tindie](https://www.tindie.com/products/joshajohnson/hub20-programmable-macro-numberpad/).
 
 ![Hub20](documents/imgs/multiple-boards.JPG)
 
