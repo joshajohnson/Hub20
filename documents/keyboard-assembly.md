@@ -23,6 +23,8 @@ You will also require the following:
 
 If you are assembling the bare-bones version, follow the below steps but omit the acrylic parts.
 
+Please ensure you remove the protective paper off all acrylic parts before starting.
+
 ![Parts Required](imgs/assembly-instructions/required-parts.JPG)
 
 ### Step 0: Check PCB
