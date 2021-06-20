@@ -8,7 +8,7 @@ Before assembling the board, ensure you have all of the required parts.
 * 2 * Rotary encoders (20mm recommended)
 * 2 * Rotary encoder knobs
 * 4 * 4mm M2 cap head bolts (bare-bones 8 * 4mm)
-* 4 * 8mm M2 cap head bolts
+* 4 * 8mm M2 cap head bolts (plus 2 * 10mm M2 if using bottom riser)
 * 4 * 8mm female threaded standoffs (bare-bones 10mm)
 * 4 * Rubber feet (optional)
 * 17-20 * Cherry MX Key Switches (not shown) (3 pin switches required for 2U keys)
@@ -24,6 +24,7 @@ You will also require the following:
 If you are assembling the bare-bones version, follow the below steps but omit the acrylic parts.
 
 Please ensure you remove the protective paper off all acrylic parts before starting.
+If there are rough edges on the PCB, feel free to smooth down with sandpaper or a file.
 
 ![Parts Required](imgs/assembly-instructions/required-parts.JPG)
 
@@ -94,7 +95,7 @@ Place the remaining "U" shaped acrylic spacer on top of the PCB, ensuring the op
 
 ### Step 7: Add bottom plate and remaining screws
 
-When installing the bottom plate, if you choose to use the small riser you will need to back off the screws so the female standoff can sit flush to the spacer (image is not flush but pretend it is). If you are not installing the riser, or are installing the bottom two bolts, this step is not required.
+When installing the bottom plate, if you choose to use the small riser you will need to use the 10mm bolts instead of the 8mm bolts that are used at the bottom of the case. It can help to have the standoff flush to the acrylic to get the bolt started (please pretend the standoff is flush in this photo, I couldn't get a good photo of it...).
 ![Spacer sitting flush](imgs/assembly-instructions/step-7-1.JPG)
 
 After installing the bottom plate and screws, snug all of the bolts up and your Hub20 is now assembled!
