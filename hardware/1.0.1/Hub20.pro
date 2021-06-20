@@ -1,4 +1,4 @@
-update=Sat 22 Aug 2020 11:27:24
+update=Mon 22 Mar 2021 22:59:20
 version=1
 last_client=kicad
 [general]
@@ -32,7 +32,7 @@ TrackWidth1=0.25
 TrackWidth2=0.2
 TrackWidth3=0.25
 TrackWidth4=0.3
-TrackWidth5=0.5
+TrackWidth5=0.4
 ViaDiameter1=0.6
 ViaDrill1=0.3
 ViaDiameter2=0.6
