@@ -53,17 +53,60 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 void encoder_update_user(uint8_t index, bool clockwise) {
-    if (index == 0) { /* Left Encoder */
-        if (clockwise) {
-            tap_code(KC_VOLU);
-        } else {
-            tap_code(KC_VOLD);
-        }
-    } else if (index == 1) { /* Right Encoder */
-        if (clockwise) {
-            tap_code(KC_MNXT);
-        } else {
-            tap_code(KC_MPRV);
-        }
+   left encoder
+    if (index == 0) {
+        switch(biton32(layer_state)){
+             case 2:
+                if (clockwise) {
+                register_code(KC_LCTL);
+                tap_code(KC_3);
+                unregister_code(KC_LCTL);
+                } else {
+                register_code(KC_LCTL);
+                tap_code(KC_1);
+                unregister_code(KC_LCTL);
+                }
+                break;
+            case 1:
+                if (clockwise) {
+                tap_code(KC_LEFT);
+                } else {
+                tap_code(KC_RGHT);
+
+                }
+                break;
+            default:
+                if (clockwise){
+                    tap_code(KC_MNXT);
+                } else{
+                    tap_code(KC_MPRV);
+                }
+                break;
+      }
     }
+// right encoder
+    else if (index == 1) {
+        switch(biton32(layer_state)){
+            case 1:
+                if (clockwise){
+                    tap_code(KC_RGHT);
+                } else{
+                    tap_code(KC_LEFT);
+                }
+                break;
+            case 2:
+                if (clockwise){
+                    tap_code(KC_RGHT);
+                } else{
+                    tap_code(KC_LEFT);
+                }
+                break;
+            default:
+                if (clockwise) {
+                    tap_code(KC_VOLU);
+                } else {
+                    tap_code(KC_VOLD);
+                }
+                break;
+      }
 }
